@@ -1,0 +1,479 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+   <settings>
+      <!--Contains settings specific to this xml, must be set to true/false to override default-->
+      <buffupdate>true</buffupdate>
+      <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+      <statusupdate>true</statusupdate>
+      <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+      <hpupdate>false</hpupdate>
+      <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+      <autoupdate>true</autoupdate>
+      <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+   </settings>
+   <sets>
+      <set name="Idle">
+         <main>Bolelabunga</main>
+         <sub>Genmei Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Inyanga Tiara +2</head>
+         <body>Shamash Robe</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Inyan. Crackows +2</feet>
+         <neck>Loricate Torque +1</neck>
+         <waist>Fucho-no-Obi</waist>
+         <ear1>Etiolation Earring</ear1>
+         <ear2>Hearty earring</ear2>
+         <ring1>Inyanga Ring</ring1>
+         <ring2>Defending Ring</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="DT" baseset="idle"/>
+      <set name="TP" />
+      <!-- Precast Sets -->
+      <set name="PrecastCure">
+         <main>Queller Rod</main>
+         <sub>Sors Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Kaykaus Mitra +1</head>
+         <body>Inyanga Jubbah +2</body>
+         <hands>Fanatic Gloves</hands>
+         <legs>Kaykaus Tights +1</legs>
+         <feet>Kaykaus Boots +1</feet>
+         <neck>Voltsurge Torque</neck>
+         <waist>Channeler's Stone</waist>
+         <ear1>Mendi. Earring</ear1>
+         <ear2>Nourish. Earring +1</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Prolix Ring</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="PrecastStoneskin" baseset="PrecastGeneral"/>
+      <set name="PrecastHeal" baseset = "PrecastGeneral" />
+      <set name="PrecastGeneral">
+         <main>Queller Rod</main>
+         <sub>Chanter's Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Vanya Hood</head>
+         <body>Inyanga Jubbah +2</body>
+         <hands>Fanatic Gloves</hands>
+         <legs>Kaykaus Tights +1</legs>
+         <feet>Kaykaus Boots +1</feet>
+         <neck>Voltsurge Torque</neck>
+         <waist>Witful Belt</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Malignance Earring</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Prolix Ring</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="PrecastRaise">
+         <main>Queller Rod</main>
+         <sub>Chanter's Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Vanya Hood</head>
+         <body>Inyanga Jubbah +2</body>
+         <hands>Fanatic Gloves</hands>
+         <legs>Aya. Cosciales +2</legs>
+         <feet>Kaykaus Boots +1</feet>
+         <neck>Cleric's Torque</neck>
+         <waist>Witful Belt</waist>
+         <ear1>Mendi. Earring</ear1>
+         <ear2>Nourish. Earring +1</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Prolix Ring</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <!-- Precast Sets END -->
+      <set name="MidcastCure">
+         <main>Queller Rod</main>
+         <sub>Sors Shield</sub>
+         <ammo>Plumose Sachet</ammo>
+         <head>Kaykaus Mitra +1</head>
+         <neck>Cleric's Torque</neck>
+         <body>Theo. Briault +2</body>
+         <hands>Theophany Mitts +2</hands>
+         <legs>Ebers Pant. +1</legs>
+         <feet>Kaykaus boots +1</feet>
+         <waist>Bishop's Sash</waist>
+         <ear1>Mendi. Earring</ear1>
+         <ear2>Nourish. Earring +1</ear2>
+         <ring1>Janniston Ring</ring1>
+         <ring2>Menelaus's Ring</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="MidcastHeal">
+         <main>Beneficus</main>
+         <sub>Genmei Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Vanya Hood</head>
+         <neck>Incanter's Torque</neck>
+         <body>Ebers bliaud +1</body>
+         <hands>Theophany Mitts +2</hands>
+         <legs>Piety Pantaln. +2</legs>
+         <feet>Regal Pumps +1</feet>
+         <waist>Bishop's Sash</waist>
+         <ear1>Beatific Earring</ear1>
+         <ear2>Nourish. Earring +1</ear2>
+         <ring1>Stikini Ring +1</ring1>
+         <ring2>Stikini Ring +1</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="MidcastStatusCure">
+         <main>Yagrush</main>
+         <sub>Genmei Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Vanya Hood</head>
+         <neck>Cleric's Torque</neck>
+         <body>Ebers bliaud +1</body>
+         <hands>Theophany Mitts +2</hands>
+         <legs>Ebers Pant. +1</legs>
+         <feet>Vanya Clogs</feet>
+         <waist>Austerity Belt +1</waist>
+         <ear1>Mendi. Earring</ear1>
+         <ear2>Nourish. Earring +1</ear2>
+         <ring1>Stikini Ring +1</ring1>
+         <ring2>Stikini Ring +1</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="MidcastEnhancing">
+         <main>Gada</main>
+         <sub>Ammurapi Shield</sub>
+         <head augment="S66932770340864">Telchine Cap</head>
+         <neck>Incanter's Torque</neck>
+         <lear>Andoaa Earring</lear>
+         <rear>Gifted Earring</rear>
+         <body augment="S75728863363072">Telchine Chas.</body>
+         <waist>Cascade Belt</waist>
+         <hands augment="S84524956385280">Telchine Gloves</hands>
+         <lring>Stikini Ring +1</lring>
+         <rring>Stikini Ring +1</rring>
+         <legs>Piety Pantaln. +2</legs>
+         <feet>Theo. Duckbills +3</feet>
+      </set>
+      <set name="MidcastBarspell" baseset="MidcastEnhancing">
+         <main>Beneficus</main>
+         <sub>Ammurapi Shield</sub>
+         <head>Ebers Cap +1</head>
+         <head augment="S66932770340864">Telchine Cap</head>
+
+         <body augment="S75728863363072">Telchine Chas.</body>
+         <body>Ebers Bliaud +1</body>
+
+         <hands>Ebers Mitts +1</hands>
+         <hands augment="S84524956385280">Telchine Gloves</hands>
+
+         <legs>Piety Pantaln. +2</legs>
+
+         <feet>Theo. Duckbills +3</feet>
+      </set>
+      <set name="MidcastRaise">
+         <!-- Conserve MP -->
+      </set>
+      <set name="MidcastEnfeebling" />
+      <set name="MidcastStoneskin" baseset="MidcastEnhancing" />
+      <set name="MidcastRegen" baseset="MidcastEnhancing">
+         <head>Inyanga Tiara +2</head>
+         <body>Piety Briault +1</body>
+         <hands>Ebers Mitts +1</hands>
+         <legs>Piety Pantaln. +2</legs>
+      </set>
+      <set name="MidcastCursna" baseset="MidcastHeal">
+         <main>Yagrush</main>
+         <sub>Genmei Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Vanya Hood</head>
+         <neck>Malison Medallion</neck>
+         <body>Ebers Bliaud +1</body>
+         <hands>Fanatic Gloves</hands>
+         <legs>Th. Pantaloons +2</legs>
+         <feet>Gende. Galosh. +1</feet>
+         <lring>Haoma's Ring</lring>
+         <rring>Haoma's Ring</rring>
+         <waist>Bishop's Sash</waist>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+      <set name="MidcastDivine">
+         <main>Yagrush</main>
+         <sub>Genmei Shield</sub>
+         <ammo>Incantor Stone</ammo>
+         <head>Kaykaus Mitra +1</head>
+         <neck>Debilis Medallion</neck>
+         <body>Ebers Bliaud +1</body>
+         <hands>Theophany Mitts +2</hands>
+         <legs>Th. Pantaloons +2</legs>
+         <feet>Vanya Clogs</feet>
+         <neck>Orison Locket</neck>
+         <waist>Bishop's Sash</waist>
+         <ear1>Beatific Earring</ear1>
+         <ear2>Healing Earring</ear2>
+         <ring1>Ephedra Ring</ring1>
+         <ring2>Sirona's Ring</ring2>
+         <back augment="S255539866118572">Alaunus's Cape</back>
+      </set>
+   </sets>
+   <variables>
+      <var name="init">0</var>
+      <var name="Set">No</var>
+      <var name="IdleSet">TP</var>
+      <var name="NukeSet">Free</var>
+      <var name="EnfeebleSet">Low</var>
+      <var name="MDTSetActive">0</var>
+      <var name="PDTSetActive">0</var>
+      <var name="TH">0</var>
+      <var name="Burst">0</var>
+      <var name="Refresh">0</var>
+   </variables>
+   <inputcommands>
+              <cmd input="/Warp">
+            <equip><lring>Warp Ring</lring></equip>
+            <equip><rring>Dim. Ring (Dem)</rring></equip>
+        </cmd>
+                <cmd input="/clear">
+            <equip set="DT"/>
+        </cmd>
+   </inputcommands>
+   <premagic>
+      <equip set="Precast" />
+      <if ad_type="whitemagic">
+         <if ad_skill="healingmagic">
+            <!--<addtochat color="36">Pre Healing Magic</addtochat>-->
+            <if ad_name="Cure*|Cura*">
+               <equip set="PrecastCure" />
+            </if>
+            <elseif ad_name="*na">
+                  <addtochat color="36">Pre Healing Magic</addtochat>
+
+               <equip set="PrecastGeneral" />
+               <equip>
+                  <main>Yagrush</main>
+                  <legs>Ebers Pant. +1</legs>
+               </equip>
+            </elseif>
+            <else>
+               <equip set="PrecastGeneral" />
+            </else>
+         </if>
+         <elseif ad_skill="divinemagic">
+            <!--<addtochat color="36">Pre Divine Magic</addtochat>-->
+         </elseif>
+         <elseif ad_skill="enhancingmagic">
+            <equip set="PrecastGeneral" />
+
+            <if ad_name="Erase">
+               <equip>
+                  <main>Yagrush</main>
+                  <legs>Ebers Pant. +1</legs>
+               </equip>               
+            </if>
+            <!--<addtochat color="36">Pre White Enhancing Magic</addtochat>-->
+         </elseif>
+         <elseif ad_skill="enfeeblingmagic">
+            <!--<addtochat color="36">Pre White Enfeebling Magic</addtochat>-->
+            <equip set="PrecastGeneral" />
+         </elseif>
+         <else>
+            <equip set="PrecastGeneral" />
+         </else>
+      </if>
+      <elseif ad_type="blackmagic">
+         <if ad_skill="elementalmagic">
+            <equip set="PrecastGeneral" />
+            <!--<addtochat color="36">Pre Black Elemental Magic</addtochat>-->
+         </if>
+         <elseif ad_skill="darkmagic">
+            <!--<addtochat color="36">Pre Black Dark Magic</addtochat>-->
+            <equip set="PrecastGeneral" />
+         </elseif>
+         <elseif ad_skill="enhancingmagic">
+            <equip set="EnhPre" />
+            <!--<addtochat color="36">Pre Black Enhancing Magic</addtochat>-->
+            <equip set="PrecastGeneral" />
+         </elseif>
+         <elseif ad_skill="enfeeblingmagic">
+            <!--<addtochat color="36">Pre Black Enfeebling Magic</addtochat>-->
+            <equip set="PrecastGeneral" />
+         </elseif>
+      </elseif>
+   </premagic>
+   <midmagic>
+      <if ad_type="whitemagic">
+         <!--<addtochat color="36">Mid White Magic</addtochat>-->
+         <if ad_skill="healingmagic">
+            <!--<addtochat color="36">Mid Healing Magic</addtochat>-->
+            <if ad_name="Cure*|Cura|Curaga*">
+               <equip set="MidcastCure" />
+            </if>
+            <elseif ad_name="*na">
+               <if ad_name="Cursna">
+                  <equip set="MidcastCursna" />
+               </if>
+               <else>
+                  <equip set="MidcastStatusCure" />
+               </else>
+            </elseif>
+         </if>
+         <elseif ad_skill="divinemagic">
+            <!--<addtochat color="36">Mid Divine Magic</addtochat>-->
+            <equip set="MidcastDivine" />
+         </elseif>
+         <elseif ad_skill="enhancingmagic">
+            <addtochat color="36">Mid White Enhancing Magic</addtochat>
+            <if ad_name="Refresh">
+               <equip set="SelfRefresh" />
+            </if>
+            <elseif ad_name="Bar*">
+               <equip set="MidcastBarspell" />
+            </elseif>
+            <elseif ad_name="Regen*">
+               <equip set="MidcastRegen" />
+            </elseif>
+            <elseif ad_name="Stoneskin">
+               <!--<addtochat color="36">Mid Stoneskin Magic</addtochat>-->
+               <equip set="MidcastEnhancing" />
+            </elseif>
+            <elseif ad_name="Erase">
+            <addtochat color="36">Erase</addtochat>
+
+               <equip set="MidcastEnhancing" />
+               <equip><main>yagrush</main></equip>
+            </elseif>
+            <else>
+               <equip set="MidcastEnhancing" />
+            </else>
+         </elseif>
+         <elseif ad_skill="enfeeblingmagic">
+            <!--<addtochat color="36">Mid White Enfeebling Magic</addtochat>-->
+            <equip set="Enfeebles" />
+         </elseif>
+      </if>
+      <elseif ad_type="blackmagic">
+         <!--<addtochat color="36">Mid Black Magic</addtochat>-->
+         <if ad_skill="elementalmagic">
+            <!--<addtochat color="36">Mid Black Elemental Magic</addtochat>-->
+            <if ad_name="*helix">
+               <equip set="Helix" />
+            </if>
+            <if advanced="$Burst=1">
+               <equip set="MB" />
+            </if>
+            <elseif>
+               <equip set="Nukes" />
+            </elseif>
+         </if>
+         <elseif ad_skill="darkmagic">
+            <!--<addtochat color="36">Mid Black Dark Magic</addtochat>-->
+            <if ad_name="Drain|Aspir*">
+               <equip set="DarkMagic" />
+            </if>
+            <elseif ad_name="Death">
+               <equip set="Death" />
+            </elseif>
+            <elseif>
+               <equip set="Enfeebles" />
+            </elseif>
+         </elseif>
+         <elseif ad_skill="enhancingmagic">
+            <!--<addtochat color="36">Mid Black Enhancing Magic</addtochat>-->
+            <if ad_name="Stoneskin">
+               <equip set="SS" />
+            </if>
+            <else>
+               <equip set="Enhancing" />
+            </else>
+         </elseif>
+         <elseif ad_skill="enfeeblingmagic">
+            <!--<addtochat color="36">Mid Black Enfeebling Magic</addtochat>-->
+            <equip set="Enfeebles" />
+         </elseif>
+         <elseif ad_name="Impact">
+            <equip set="Impact" />
+         </elseif>
+      </elseif>
+   </midmagic>
+   <preranged>
+      <equip>
+         <range />
+      </equip>
+   </preranged>
+   <idlegear>
+      <if advanced="$init=0">
+         <setvar name="init" value="1" />
+         <addtochat color="8">Staring up WHM</addtochat>
+         <command delay="1000">/lockstyleset 100</command>
+         <command delay="1500">/macro book 20</command>
+         <command delay="2000">/macro set 1</command>
+      </if>
+      <if p_status="engaged">
+         <equip set="TP" />
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <elseif>
+            <if advanced="$kite=On">
+               <equip set="Move" />
+            </if>
+         </elseif>
+         <else>
+            <addtochat color="8">TP Set</addtochat>
+            <equip set="TP" />
+         </else>
+      </if>
+      <elseif p_status="idle">
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <else>
+            <equip set="idle" />
+         </else>
+      </elseif>
+      <if eq_rring="Trizek Ring">
+         <equip lock="true">
+            <rring>Trizek Ring</rring>
+         </equip>
+      </if>
+      <if eq_rring="Capacity Ring">
+         <equip lock="true">
+            <rring>Capacity Ring</rring>
+         </equip>
+      </if>
+      <if eq_rring="Vocation Ring">
+         <equip lock="true">
+            <rring>Vocation Ring</rring>
+         </equip>
+      </if>
+      <if eq_rring="Facility Ring">
+         <equip lock="true">
+            <rring>Facility Ring</rring>
+         </equip>
+      </if>
+      <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </if>
+      <if eq_back="Aptitude Mantle">
+         <equip lock="true">
+            <back>Aptitude Mantle</back>
+         </equip>
+      </if>
+      <if eq_lring="Warp Ring">
+         <equip lock="true">
+            <lring>Warp Ring</lring>
+         </equip>
+      </if>
+   </idlegear>
+   <jobability />
+   <weaponskill>
+      <if ad_name="Myrkr">
+         <equip set="Myrkr" />
+      </if>
+      <else>
+         <equip set="MultiWS" />
+      </else>
+   </weaponskill>
+</ashitacast>
+

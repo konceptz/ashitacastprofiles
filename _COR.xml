@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+    <settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+        <buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+        <statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+        <hpupdate>true</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+        <autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+    </settings>
+<sets>
+
+        <!--- DT sets -->
+        <set name="DT">
+            <main augment="O372879451750444">Rostam</main>
+            <main augment="O372879458304045">Rostam</main> <!-- Rolls Rostam -->
+       
+            <head>Meghanada Visor +2</head>
+            <neck>Loricate Torque +1</neck>
+            <hands>Meg. Gloves +2</hands>
+            <body>Meg. Cuirie +2</body>
+            <legs>Meg. Chausses +2</legs>
+            <feet>Meg. Jam. +2</feet>
+            <rear>Odnowa Earring +2</rear>
+            <lear>Etiolation Earring</lear>
+        </set>
+        <set name="mdt">
+        </set>
+        <set name="hdt">
+        </set>
+        <set name="TP">
+            <head>Adhemar Bonnet +1</head>
+            <neck>Iskur Gorget</neck>
+            <lear>Telos Earring</lear>
+            <rear>Cessance Earring</rear>
+            <body>Adhemar Jacket +1</body>
+            <hands>Adhemar Wrist. +1</hands>
+            <lring>Petrov Ring</lring>
+            <rring>Ilabrat Ring</rring>
+            <waist>Windbuffet Belt +1</waist>
+            <legs>Meg. Chausses +2</legs>
+            <feet>Meg. Jam. +2</feet>
+            <back augment="S7926617608038518574">Camulus's mantle</back> <!-- ACC STP -->
+        </set>
+        <set name="TPKnife">
+            <main augment="O372879451750444">Rostam</main>
+            <range>Death Penalty</range>
+            <back augment="S8137930005555518574">Camulus's mantle</back> <!-- RNG STP -->
+        </set>
+        <set name="TPSword">
+            <main>Naegling</main>
+            <sub>Tauret</sub>
+            <range augment="M39265">Anarchy +2</range>
+        </set>
+        <set name="TPRanged">
+        </set>
+
+        <set name="Precast">
+            <neck>Voltsurge Torque</neck>
+            <rear>Etiolation Earring</rear>
+            <body augment="S602109454371">Samnuha Coat</body>
+        </set>
+
+        <set name="QD">
+            <head>Herculean Helm</head>
+            <neck>Sanctity Necklace</neck>
+            <lear>Novio Earring</lear>
+            <rear>Hecate's Earring</rear>
+            <body>Samnuha Coat</body>
+            <hands>Leyline Gloves</hands>
+            <lring>Apate Ring</lring>
+            <rring>Fenrir Ring +1</rring>
+            <back>Gunslinger's Cape</back>
+            <waist>Aquiline Belt</waist>
+            <legs>Herculean Trousers</legs>
+            <feet>Herculean Boots</feet>
+        </set>
+        <set name="QD-LD" BaseSet="QD">     
+            <lear>Lifestorm Earring</lear>
+            <rear>Psystorm Earring</rear>
+        </set>
+
+        <set name="Preshot">
+            <ammo>Chrono Bullet</ammo>
+
+            <head>Chass. Tricorne +1</head>
+            <neck>Comm. Charm +1</neck>
+            <body>Laksa. Frac +3</body>
+            <hands>Carmine Fin. Ga. +1</hands>
+            <legs>Laksa. Trews +3</legs>
+            <feet>Meg. Jam. +2</feet>
+        </set>
+        <set name="Midshot">
+            <ammo>Chrono Bullet</ammo>
+            <head>Meghanada Visor +2</head>
+            <head>Oshosi Mask</head>
+            <neck>Iskur Gorget</neck>
+            <lear>Telos Earring</lear>
+            <rear>Enervating Earring</rear>
+            <body>Mummu Jacket +2</body>
+            <hands>Meg. Gloves +2</hands>
+            <lring>Dingir Ring</lring>
+            <rring>Ilabrat Ring</rring>
+            <waist>Yemaya Belt</waist>
+            <legs>Lanun trews +2</legs>
+            <feet>Meg. Jam. +2</feet>
+        </set>
+		
+        <set name="WS">
+            <ammo>Living Bullet</ammo>
+            <head>Lanun Tricorne +2</head>
+            <neck>Fotia Gorget</neck>
+            <lear>Telos Earring</lear>
+            <rear>Ishvara Earring</rear>
+            <body>Laksa. Frac +3</body>
+            <hands>Meg. Gloves +2</hands>
+            <lring>Dingir Ring</lring>
+            <rring>Regal Ring</rring>
+            <legs>Meg. Chausses +2</legs>
+            <waist>Fotia Belt</waist>
+            <feet>Lanun Bottes +3</feet>
+            <back augment="S8137930005555518759">Camulus's mantle</back> <!-- RNG AGI WSD -->w			
+        </set>
+        <set name="Leaden">
+            <ammo>Living Bullet</ammo>
+            <head>Pixie Hairpin +1</head>
+            <neck>Comm. Charm +1</neck>
+            <lear>Friomisi Earring</lear>
+            <rear>Ishvara Earring</rear>
+            <body>Laksa. Frac +3</body>
+            <hands>Carmine Fin. Ga. +1</hands>
+            <lring>Dingir Ring</lring>
+            <rring>Archon Ring</rring>
+            <legs augment="S3547845184722338982">Herculean Trousers</legs>
+            <waist>Eschan Stone</waist>
+            <feet>Lanun Bottes +3</feet>
+            <back augment="S8137930077645118759">Camulus's mantle</back> <!-- MACC/MAB AGI WSD -->
+        </set>
+        <set name="Wildfire">
+                        <ammo>Living Bullet</ammo>
+            <head augment="S106125454446662">Herculean Helm</head>
+            <neck>Comm. Charm +1</neck>
+            <lear>Friomisi Earring</lear>
+            <rear>Ishvara Earring</rear>
+            <body>Laksa. Frac +3</body>
+            <hands>Carmine Fin. Ga. +1</hands>
+            <lring>Dingir Ring</lring>
+            <rring>Regal Ring</rring>
+            <legs augment="S10584894085543836934">Herculean Trousers</legs>
+            <waist>Eschan Stone</waist>
+            <feet>Lanun Bottes +3</feet>
+            <back augment="S8137930077645118759">Camulus's mantle</back> <!-- MACC/MAB AGI WSD -->
+        </set>
+        <set name="LastStand">
+            <ammo>Living Bullet</ammo>
+            <head>Lanun Tricorne +2</head>
+            <neck>Fotia Gorget</neck>
+            <lear>Telos Earring</lear>
+            <rear>Ishvara Earring</rear>
+            <body>Laksa. Frac +3</body>
+            <hands>Meg. Gloves +2</hands>
+            <lring>Dingir Ring</lring>
+            <rring>Regal Ring</rring>
+            <legs>Meg. Chausses +2</legs>
+            <waist>Fotia Belt</waist>
+            <feet>Lanun Bottes +3</feet>
+            <back augment="S8137930005555518759">Camulus's mantle</back> <!-- RNG AGI WSD -->
+        </set>
+
+        <set name="SavageBlade">
+            <head>Meghanada Visor +2</head>
+            <neck>Comm. CHarm +1</neck>
+            <lear>Ishvara Earring</lear>
+            <rear>Brutal Earring</rear>
+            <body>Laksa. Frac +3</body>
+            <hands>Meg. Gloves +2</hands>
+            <waist>Fotia Belt</waist>d
+            <lring>Epona's Ring</lring>
+            <rring>Regal Ring</rring>
+            <legs>Meg. Chausses +2</legs>
+            <legs augment="S7177336637245926692">Herculean Trousers</legs>
+            <feet>Lanun Bottes +3</feet>
+            <back augment="S3738594997708818759">Camulus's mantle</back> <!-- STR WSD -->
+        </set>
+
+</sets>
+   
+<variables>
+        <var name="init">0</var>
+        <var name="DT">Off</var>
+		<var name="mdt">off</var>
+        <var name="knife">Off</var>
+        <var name="sword">off</var>
+</variables>
+   
+<inputcommands>
+        <cmd input="/Warp">
+            <equip><lring>Warp Ring</lring></equip>
+            <equip><rring>Dim. Ring (Dem)</rring></equip>
+        </cmd>
+		<cmd input="/DT">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="hdt" value="Off"/>
+            <setvar name="mdt" value="Off"/>
+			<if advanced="$DT=Off">
+                <setvar name="DT" value="On" />
+                <addtochat color="8">DT Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="DT" value="Off" />
+                <addtochat color="8">DT Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+		<cmd input="/MDT">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="dt" value="Off"/>
+			<setvar name="hdt" value="Off"/>
+			<if advanced="$mdt=Off">
+                <setvar name="mdt" value="On" />
+                <addtochat color="8">MDT Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="mdt" value="Off" />
+                <addtochat color="8">MDT Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/sword">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="knife" value="Off"/>
+            <if advanced="$sword=Off">
+                <setvar name="sword" value="On" />
+                <addtochat color="8">Sword Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="sword" value="Off" />
+                <addtochat color="8">Sword Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/knife">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="sword" value="Off"/>
+            <if advanced="$knife=Off">
+                <setvar name="knife" value="On" />
+                <addtochat color="8">Knife Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="knife" value="Off" />
+                <addtochat color="8">Knife Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+
+      
+</inputcommands>
+   
+<jobability>
+    <if ad_name="*Roll|Double-Up">
+        <equip set="dt"/>
+        <equip>
+            <main augment="O372879458304045">Rostam</main> <!-- Rolls Rostam -->
+            <range>Compensator</range>
+            <head>Lanun tricorne +2</head>
+            <neck>Regal Necklace</neck>
+            <hands>Chasseur's Gants +1</hands>
+            <feet>Lanun Bottes +3</feet>
+            <rring>Luzaf's Ring</rring>
+            <lring>Regal ring</lring>
+            <back>Camulus's Mantle</back>
+        </equip>
+        <if ad_name="Tactician's Roll"><equip><body>Chasseur's Frac +1</body></equip></if>
+        <if ad_name="Corsair's Roll"><equip><feet>Chass. Bottes +1</feet></equip></if>
+        <if ad_name="Blitzer's Roll"><equip><head>Chass. Tricorne +1</head></equip></if>
+        <if ad_name="Caster's Roll"><equip><legs>Chas. Culottes +1</legs></equip></if>
+        <if ad_name="Allies's Roll"><equip><hands>Chasseur's Gants +1</hands></equip></if>
+    </if>
+
+    <if ad_name="Random Deal"><equip><body>Lanun Frac +3</body></equip></if>
+    <if ad_name="Wild Card"><equip><feet>Lanun bottes +3</feet></equip></if>
+    <if ad_name="Fold"><equip><hands>Lanun Gants +1</hands></equip></if>
+    <if ad_name="Light Shot|Dark Shot"><equip set="QD-LD" /></if>
+    <if ad_name="Triple Shot"><equip><body>Chasseur's Frac +1</body></equip></if>
+    <elseif ad_name="* Shot"><equip set="QD" /></elseif>
+</jobability>
+
+
+
+<premagic>
+		<equip set="Precast" />
+</premagic>
+   
+<midmagic>                          	
+</midmagic>
+
+<preranged>
+    <equip set="Preshot" />
+    <!-- <gearlock delay="4" /> -->
+</preranged>
+
+<midranged>
+    <equip set="Midshot"/>
+</midranged>
+   
+<idlegear>
+        <if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <addtochat color="8">Starting up COR</addtochat>
+            <command delay="1000">/lockstyleset 100</command>    
+            <command delay="1500">/macro book 2</command>
+            <command delay="2000">/macro set 1</command>                 
+        </if>
+       
+        <if p_status="engaged">
+            <if advanced="$DT=On">
+                <equip set="DT" />
+            </if>
+            <elseif advanced="$mdt=On">
+                <equip set="mdt" />
+            </elseif>
+            <else>
+                <equip set="TP"/>
+            </else>
+        </if>
+        <elseif p_status="idle"> 
+            <equip set="DT"/>
+			<if advanced="$mdt=On"><equip set="mdt" /></if>
+        </elseif>
+
+         
+        <if advanced="$knife=On"><equip set="TPKnife"/></if>
+        <if advanced="$sword=On"><equip set="TPSword"/></if>
+
+        <if eq_range="Fomalhaut">
+         <equip lock="true">
+             <range>Fomalhaut</range>        
+         </equip>
+        </if>
+
+        <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+             <rring>Dim. Ring (Dem)</rring>          
+         </equip>
+        </if>
+       
+		<if eq_lring="Dim. Ring (Dem)">
+         <equip lock="true">
+             <lring>Dim. Ring (Dem)</lring>          
+         </equip>
+        </if> 
+	   
+        <if eq_lring="Warp Ring">
+          <equip lock="true">
+             <lring>Warp Ring</lring>              
+          </equip>
+        </if>
+       
+</idlegear>
+   
+<weaponskill>
+       
+        <if ad_name="Leaden Salute">
+            <equip set="Leaden"/>
+        </if>
+        <elseif ad_name="Wildfire"><equip set="Wildfire"/></elseif>
+
+        <if ad_name="Last Stand"><equip set="LastStand"/></if>
+        <elseif ad_name="Savage Blade"><equip set="SavageBlade"/></elseif>
+
+        <if t_distance="<15"><equip><waist>Orpheus's Sash</waist></equip></if>
+
+
+</weaponskill>
+   
+   
+   
+    </ashitacast>

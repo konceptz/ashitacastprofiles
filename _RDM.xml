@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+   <settings>
+      <!--Contains settings specific to this xml, must be set to true/false to override default-->
+      <buffupdate>true</buffupdate>
+      <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+      <statusupdate>true</statusupdate>
+      <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+      <hpupdate>false</hpupdate>
+      <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+      <autoupdate>true</autoupdate>
+      <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+   </settings>
+   <sets>
+      <!-- Job Ability Sets -->
+      <!-- DT sets -->
+      <set name="idle">
+         <head>Viti. Chapeau +3</head>
+         <neck>Loricate Torque +1</neck>
+         <lear>Hearty Earring</lear>
+         <rear>Dominance Earring</rear>
+         <body>Atrophy Tabard +3</body>
+         <hands>Aya. Manopolas +2</hands>
+         <lring>Defending Ring</lring>
+         <rring>Stikini Ring +1</rring>
+         <waist>Flume Belt</waist>
+         <legs>Aya. Cosciales +2</legs>
+         <legs augment="D6232182625036">Carmine Cuisses +1</legs>
+
+         <feet>Jhakri Pigaches +2</feet>   
+         <ammo>Staunch Tathlum +1</ammo>
+      </set>
+      <set name="DT">
+
+
+         <head>Aya. Zucchetto +2</head>
+         <neck>Loricate Torque +1</neck>
+         <lear>Telos Earring</lear>
+         <rear>Hearty Earring</rear>
+         <body>Ayanmo Corazza +2</body>
+         <hands>Aya. Manopolas +2</hands>
+         <lring>Stikini Ring +1</lring>
+         <rring>Defending Ring</rring>
+         <legs>Aya. Cosciales +2</legs>
+         <feet>Aya. Gambieras +2</feet>
+         <ammo>Staunch Tathlum +1</ammo>
+         <waist>Flume Belt</waist>
+
+        <!--
+         <neck>Loricate Torque +1</neck>
+         <lear>Telos Earring</lear>
+         <rear>Hearty Earring</rear>
+         <body>Viti. Tabard +3</body>
+         <hands>Aya. Manopolas +2</hands>
+         <legs>Chironic Hose</legs>
+         <feet>Vitiation Boots +3</feet>
+         <waist>Flume Belt</waist>
+         <lring>Petrov ring</lring>
+         <rring>Ilabrat Ring</rring>
+         -->  
+
+      </set>
+      <set name="Lethargy">
+         <feet>Leth. Houseaux +1</feet>
+      </set>
+      <set name="MEVA">
+         <head>Viti. Chapeau +3</head>
+         <neck>Loricate Torque +1</neck>
+         <lear>Telos Earring</lear>
+         <rear>Hearty Earring</rear>
+         <body>Viti. Tabard +3</body>
+         <hands>Aya. Manopolas +2</hands>
+         <legs>Chironic Hose</legs>
+         <feet>Vitiation Boots +3</feet>
+         <ammo>Regal Gem</ammo>
+         <waist>Flume Belt</waist>
+         <ammo>Staunch Tathlum +1</ammo>
+
+      </set>
+      <set name="Move" baseset="DT">
+         <legs augment="D6232182625036">Carmine Cuisses +1</legs>
+      </set>
+      <!-- Magic Sets -->
+      <set name="MACC">
+         <head augment="M88671560">Viti. Chapeau +3</head>
+         <body>Atrophy Tabard +3</body>
+         <hands>Kaykaus Cuffs +1</hands>
+         <legs augment="S549976023143101753565219">Chironic hose</legs>
+         <feet>Vitiation Boots +3</feet>
+         <neck>Dls. Torque +2</neck> 
+         <waist>Luminary sash</waist>
+         <ear1>Snotra Earring</ear1>
+         <ear2>Regal Earring</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Stikini Ring +1</ring2>
+         <range>Ullr</range>
+         <back augment="S255541914018572">Sucellos's cape</back>
+      </set>
+      <set name="potency">
+         <head augment="M88671560">Viti. Chapeau +3</head>
+         <body>Atrophy Tabard +3</body>
+         <hands>Kaykaus Cuffs +1</hands>
+         <legs augment="S549976023143101753565219">Chironic hose</legs>
+         <feet>Vitiation Boots +3</feet>
+         <neck>Dls. Torque +2</neck> 
+         <waist>Luminary sash</waist>
+         <ear1>Snotra Earring</ear1>
+         <ear2>Regal Earring</ear2>
+         <ring1>Stikini Ring +1</ring1>
+         <ring2>Stikini Ring +1</ring2>
+         <ammo>Regal Gem</ammo>
+         <back augment="S255541914018572">Sucellos's cape</back>
+      </set>
+      <set name="Elemental">
+         <ammo>Pemphredo Tathlum</ammo>
+         <head>Jhakri Coronal +2</head>
+         <body>Amalric Doublet +1</body>
+         <hands>Amalric Gages +1</hands>
+         <legs>Amalric Slops +1</legs>
+         <feet>Amalric Nails +1</feet>
+         <feet>Vitiation Boots +3</feet>
+         <neck>Sanctity Necklace</neck>
+         <waist>Luminary sash</waist>
+         <waist>Orpheus's Sash</waist>
+         <ear1>Regal Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <ring1>Freke Ring</ring1>
+         <ring2>Jhakri Ring</ring2>
+      </set>
+	  <set name="enhancingset">
+         <ammo>Pemphredo Tathlum</ammo>
+         <head>Befouled Crown</head>
+         <body>Viti. Tabard +3</body>
+         <hands>Viti. Gloves +3</hands>
+         <legs>Atrophy Tights +3</legs>
+         <feet>Leth. Houseaux +1</feet>
+         <neck>Dls. Torque +2</neck>
+         <waist>Olympus Sash</waist>
+         <ear1>Snotra Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <ring1>Stikini Ring +1</ring1>
+         <ring2>Stikini Ring +1</ring2>
+      </set>
+     <set name="refreshset" baseset="enhancingset">
+         <head>Amalric Coif +1</head>
+         <body>Viti. Tabard +3</body>
+         <hands>Atrophy Gloves +3</hands>
+         <legs>Leth. Fuseau +1</legs>
+         <feet>Leth. Houseaux +1</feet>
+         <back>Grapevine Cape</back>
+
+      </set>
+	  <set name="healinset">
+         <ammo>Pemphredo Tathlum</ammo>
+         <head augment="D1911369175792">Vanya Hood</head>
+         <body augment="S1095325731">Chironic Doublet</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <legs>Jhakri Slops +2</legs>
+         <feet>Skaoi Boots</feet>
+         <neck>Sanctity Necklace</neck>
+         <waist>Olympus Sash</waist>
+         <ear1>Snotra Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Jhakri Ring</ring2>
+      </set>
+
+      <set name="Drain">
+         <ammo>Pemphredo Tathlum</ammo>
+         <head augment="D4071815123724">Carmine Mask +1</head>
+         <body>Atrophy Tabard +3</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <legs>Jhakri Slops +2</legs>
+         <feet>Skaoi Boots</feet>
+         <neck>Sanctity Necklace</neck>
+         <waist>Luminary sash</waist>
+         <ear1>Snotra Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Jhakri Ring</ring2>
+         <back augment="S7931771647437318759">Sucellos's cape</back>
+      </set>
+      <set name="Precast">
+         <ammo>Sapience Orb</ammo>
+         <head>Carmine Mask +1</head>
+         <body>Viti. Tabard +3</body>
+         <hands>Gende. Gages +1</hands>
+         <legs>Aya. Cosciales +2</legs>
+         <feet agument="S79315841335429">Merlinic Crackows</feet>
+         <waist>Channeler's Stone</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Estq. Earring</ear2>
+         <ring1>Kishar Ring</ring1>
+         <ring2>Jhakri Ring</ring2>
+         <back augment="S255541914018572">Sucellos's cape</back>
+      </set>
+      <set name="TP">
+         <head>Aya. Zucchetto +2</head>
+         <neck>Sanctity Necklace</neck>
+         <lear>Sherida Earring</lear>
+         <rear>Suppanomimi</rear>
+         <body>Ayanmo Corazza +2</body>
+         <hands augment="S103165186727141078356036">Chironic Gloves</hands>
+         <hands>Aya. Manopolas +2</hands>
+         <lring>Petrov ring</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Reiki Yotai</waist>/
+         <legs>Aya. Cosciales +2</legs>
+         <feet>Aya. Gambieras +2</feet>
+
+      </set>
+      <set name="WS">
+         <head>Viti. Chapeau +3</head>
+         <neck>Sanctity Necklace</neck>
+         <lear>Sherida Earring</lear>
+         <rear>Suppanomimi</rear>
+         <body>Ayanmo Corazza +2</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <lring>Petrov ring</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Grunfeld Rope</waist>
+         <legs>Aya. Cosciales +2</legs>
+         <feet augment="S4538693498931522598">Chironic Slippers</feet>
+      </set>
+      <set name="CDC">
+         <head>Viti. Chapeau +3</head>
+         <neck>Sanctity Necklace</neck>
+         <lear>Sherida Earring</lear>
+         <rear>Regal Earring</rear>
+         <body>Ayanmo Corazza +2</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <lring>Begrudging Ring</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Grunfeld Rope</waist>
+         <legs>Aya. Cosciales +2</legs>
+         <ammo>Yetshila +1</ammo>
+         <feet augment="S4538693498931522598">Chironic Slippers</feet>
+      </set>
+      <set name="savage">
+         <head>Viti. Chapeau +3</head>
+         <neck>Sanctity Necklace</neck>
+         <lear>Sherida Earring</lear>
+         <rear>Regal Earring</rear>
+         <body>Ayanmo Corazza +2</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <lring>Begrudging Ring</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Grunfeld Rope</waist>
+         <legs>Aya. Cosciales +2</legs>
+         <ammo>Yetshila +1</ammo>
+         <feet augment="S4538693498931522598">Chironic Slippers</feet>
+      </set>
+      <set name="sanguine">
+
+         <head>Pixie Hairpin +1</head>
+         <body>Amalric Doublet +1</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <legs>Amalric Slops +1</legs>
+<!--         <feet augment="S4538693498931522598">Chironic Slippers</feet>
+         <feet augment="S4538693498931522598">Chironic Slippers</feet>
+         <feet>Amalric Nails +1</feet>
+      -->
+         <feet>Vitiation Boots +3</feet>
+
+         <neck>Sanctity Necklace</neck>
+         <neck>Dls. Torque +2</neck> 
+         <waist>Orpheus's Sash</waist>
+         <ear1>Regal Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <ring1>Archon Ring</ring1>
+         <ring2>Jhakri Ring</ring2>
+         <ammo>Pemphredo Tathlum</ammo>
+      </set>
+      <set name="magicWS">
+         <head>Pixie Hairpin +1</head>
+         <body>Amalric Doublet +1</body>
+         <hands>Jhakri Cuffs +2</hands>
+         <legs>Amalric Slops +1</legs>
+         <feet augment="S149837459046915">Chironic Slippers</feet>
+         <feet>Amalric Nails +1</feet>
+         <neck>Sanctity Necklace</neck>
+         <neck>Dls. Torque +2</neck> 
+         <waist>Orpheus's Sash</waist>
+         <ear1>Regal Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <ring1>Archon Ring</ring1>
+         <ring2>Jhakri Ring</ring2>
+         <ammo>Pemphredo Tathlum</ammo>
+      </set>
+   </sets>
+   <variables>
+      <var name="init">0</var>
+      <var name="DT">Off</var>
+      <var name="kite">Off</var>
+      <var name="ACC">Off</var>
+   </variables>
+   <inputcommands>
+      <cmd input="/Warp">
+         <equip>
+            <lring>Warp Ring</lring>
+         </equip>
+         <equip>
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </cmd>
+      <cmd input="/thawk">
+         <equip>
+            <ammo>Tomahawk</ammo>
+         </equip>
+      </cmd>
+      <cmd input="/DT">
+         <if advanced="$DT=Off">
+            <setvar name="DT" value="On" />
+            <addtochat color="8">DT Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="DT" value="Off" />
+            <addtochat color="8">DT Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/kite">
+         <if advanced="$kite=Off">
+            <setvar name="kite" value="On" />
+            <addtochat color="8">Kite Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="kite" value="Off" />
+            <addtochat color="8">Kite Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/acc">
+         <if advanced="$acc=Off">
+            <setvar name="ACC" value="On" />
+            <addtochat color="8">ACC Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="ACC" value="Off" />
+            <addtochat color="8">ACC Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+   </inputcommands>
+   <jobability>
+      <if ad_name="Composure">
+         <equip set="Lethargy" />
+      </if>
+      <elseif ad_name="Meditate">
+         <equip set="Meditate" />
+      </elseif>
+      <elseif ad_name="Troubadour">
+         <equip set="Troubadour" />
+      </elseif>
+   </jobability>
+   <premagic>
+      <if ad_name="Impact"><equip set="ImpactFC" /></if>
+      <else><equip set="Precast" /></else>
+      <if ad_name="stoneskin|Cure*"><equip><legs>Doyen Pants</legs></equip></if>
+   </premagic>
+   <midmagic>
+      <if ad_skill="DarkMagic">
+         <if ad_name="Drain*|Aspir*">
+            <equip set="Drain" />
+         </if>
+         <elseif ad_name="Absorb-*">
+            <equip set="Absorb" />
+         </elseif>
+         <else>
+            <equip set="Dark" />
+         </else>
+         <elseif ad_name="Dread*">
+            <equip set="Dread Spikes" />
+         </elseif>
+      </if>
+      <if ad_skill="EnfeeblingMagic">
+         <if ad_name="Paralyze*|Slow*|Dia*|Bio*|Frazzle*">
+            <addtochat color="8">Equipping Potency Enfeebling Set</addtochat>
+            <equip set="Potency"/>
+         </if>
+         <else>
+            <addtochat color="8">Equipping MACC Enfeebling Set</addtochat>
+            <equip set="MACC" />
+         </else>
+      </if>
+      <if ad_skill="ElementalMagic">
+            <addtochat color="8">Elemental Set</addtochat>	  
+         <if ad_name="Impact">
+            <equip set="Impact" />
+         </if>
+         <else>
+            <equip set="Elemental" />
+         </else>
+      </if>
+	  <if ad_skill="EnhancingMagic">
+            <addtochat color="8">Enhancing Set</addtochat>	  
+			<equip set="enhancingset"/>
+         <if ad_name = "Refresh*"><equip set="refreshset"/></if>
+
+	  </if>
+	  <if ad_skill="healingmagic">
+            <addtochat color="8">Healing Set</addtochat>	  
+			<equip set="healingset"/>
+	  </if>
+     <if ad_name="Refresh*"><equip><body>Atrophy Tabard +3</body></equip></if>
+   </midmagic>
+   <idlegear>
+      <if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <addtochat color="8">Staring up WHM</addtochat>
+            <command delay="1000">/macro book 13</command>
+            <command delay="1500">/macro set 1</command>
+            <command delay="2000">/lockstyleset 96</command>                 
+        </if>
+      <if p_status="engaged">
+            <equip set="TP"/>
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <elseif>
+            <if advanced="$kite=On">
+               <equip set="Move" />
+            </if>
+         </elseif>
+         <else>
+            <addtochat color="8">TP Set</addtochat>   
+            <equip set="TP"/>
+         </else>
+      </if>
+      <elseif p_status="idle">
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <else>
+            <equip set="idle"/>
+         </else>
+      </elseif>
+
+      <if eq_lring="Capacity Ring"> <equip lock="true"> <lring>Capacity Ring</lring></equip></if>
+      <if eq_lring="Volte Harness"> <equip lock="true"> <body>Volte Harness</body></equip></if>
+      <if eq_lring="Trizek ring"><equip lock="true"><lring>Trizek ring</lring></equip></if>
+      <if eq_rring="Dim. Ring (Dem)"><equip lock="true"><rring>Dim. Ring (Dem)</rring></equip></if>
+      <if eq_lring="Facility Ring"><equip lock="true"><lring>Facility Ring</lring></equip></if>
+      <if eq_lring="Warp Ring"><equip lock="true"><lring>Warp Ring</lring></equip></if>
+   </idlegear>
+   <weaponskill>
+      <if ad_name="Sanguine Blade">
+         <addtochat color="8">Sanguine set</addtochat>
+         <equip set="sanguine"/>
+      </if>
+      <elseif ad_name="Chant Du Cygne">
+         <equip set="cdc"/>
+      </elseif>
+      <else>
+         <equip set="savage" />
+      </else>
+      <if ad_name="Aeolian*"><equip set="magicWS"/></if>
+
+   </weaponskill>
+</ashitacast>

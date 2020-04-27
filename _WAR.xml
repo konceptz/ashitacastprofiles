@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+    <settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+        <buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+        <statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+        <hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+        <autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+    </settings>
+<sets>
+          <!-- Job Ability Sets -->
+        <set name="Aggressor">
+            <head>Pumm. Mask +3</head>
+            <body>Agoge Lorica +3</body>
+        </set>
+        <set name="Warcry">
+            <head augment="M1328">Agoge Mask +3</head>
+        </set>
+        <set name="Berserk">
+            <body>Pumm. Lorica +3</body>            
+        </set>
+        <set name="Retaliation">
+        </set>
+        <set name="Brazen Rush">
+        </set>
+        <set name="emnity">
+            <lring>Apeile Ring +1</lring>
+            <rring>Apeile Ring</rring>
+            <ammo>Sapience Orb</ammo>
+            <back>Philidor Mantle</back>
+            <body augment="D15938765744130">Souv. Cuirass +1</body>
+            <head augment="D15938765744130">Souv. Schaller +1</head>
+            <hands augment="D15938765744130">Souv. Handsch. +1</hands>
+            <legs augment="D15938765744130">Souv. Diechlings +1</legs>
+            <feet augment="D15938765744130">Souveran Schuhs +1</feet>
+            <lear>Cryptic Earring</lear>
+            <neck>Moonlight Necklace</neck> 
+        </set>
+        <!-- DT sets -->
+       <set name="DT">
+            <!-- <main>Naegling</main>
+            <sub>Adapa shield</sub> -->
+            <ammo>Staunch tathlum +1</ammo>
+            <head>Volte Salade</head>
+            <body>Hjarrandi Breast.</body>
+
+            <neck>War. beads +2</neck>
+            <lear>Hearty Earring</lear>
+            <rear>Flashward Earring</rear>
+            <body>Hjarrandi Breast.</body>
+            <body>Volte Haubert</body>
+
+            <hands>Sulev. Gauntlets +2</hands>
+            <hands>Pumm. Mufflers +3</hands>
+
+            <ear1>Brutal Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <lring>Moonlight Ring</lring>
+            <rring>Defending Ring</rring>
+            <rring>Moonlight Ring</rring>
+
+            <back augment="S255463270418575">Cichol's Mantle</back>
+            <waist>Ioskeha Belt +1</waist>
+            
+            <legs>Pumm. Cuisses +3</legs>
+
+            <feet augment="D15938765744130">Souveran Schuhs +1</feet>
+            <feet>Flam. Gambieras +2</feet>
+            <feet>Pumm. Calligae +3</feet>
+
+            <body>Volte Haubert</body>
+
+            <hands>Volte Moufles</hands>
+
+            <legs>Volte Brayettes</legs>
+
+            <feet>Volte Sollerets</feet>
+
+
+
+
+       </set>
+       <set name="tank">
+            <!-- <main>Naegling</main>
+            <sub>Adapa shield</sub> -->
+            <ammo>Staunch tathlum +1</ammo>
+            <head>Hjarrandi Helm</head>
+            <body>Hjarrandi Breast.</body>
+
+            <neck>War. beads +2</neck>
+            <lear>Hearty Earring</lear>
+            <rear>Flashward Earring</rear>
+            <body>Hjarrandi Breast.</body>
+
+            <hands>Sulev. Gauntlets +2</hands>
+
+            <ear1>Brutal Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <lring>Moonlight Ring</lring>
+            <rring>Moonlight Ring</rring>
+            <back augment="S255463270418575">Cichol's Mantle</back>
+            <back>Moonbeam Cape</back>
+            <waist>Flume Belt +1</waist>
+            
+            <legs>Pumm. Cuisses +3</legs>
+
+            <feet augment="D15938765744130">Souveran Schuhs +1</feet>
+            <feet>Flam. Gambieras +2</feet>
+            <feet>Pumm. Calligae +3</feet>
+            <neck>Loricate Torque +1</neck>
+                        <body augment="D15938765744130">Souv. Cuirass +1</body>
+            <head augment="D15938765744130">Souv. Schaller +1</head>
+            <hands augment="D15938765744130">Souv. Handsch. +1</hands>
+            <legs augment="D15938765744130">Souv. Diechlings +1</legs>
+            <feet augment="D15938765744130">Souveran Schuhs +1</feet>
+            <lear>Odnowa Earring</lear>
+            <rear>Odnowa Earring +1</rear>
+       </set>
+       <set name="hdt">
+            <ammo>Staunch tathlum +1</ammo>
+            <body>Hjarrandi Breast.</body>
+            <body>Volte Haubert</body>
+
+            <lear>Hearty Earring</lear>
+            <rear>Flashward Earring</rear>
+            <body augment="D15938765744130">Souv. Cuirass +1</body>
+            <hands>Sulev. Gauntlets +2</hands>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <lring>Moonlight Ring</lring>
+            <rring>Moonlight Ring</rring>
+            <back augment="S255463270418575">Cichol's Mantle</back>
+            <waist>Ioskeha Belt +1</waist>
+            <legs>Sulev. cuisses +2</legs>
+            <feet>Flam. Gambieras +2</feet>
+       </set>
+        <set name="Move" baseset="DT">
+            <feet>Hermes' Sandals +1</feet>
+        </set>
+        <set name="TP">
+            
+            <ammo>Ginsen</ammo>
+
+            <head>Flam. Zucchetto +2</head>
+            <neck>War. Beads +2</neck>
+            <body>Agoge Lorica +3</body>
+
+            <body>Dagon Breast.</body>
+            <hands>Flam. Manopolas +2</hands>
+            <hands>Sulev. Gauntlets +2</hands>
+            <legs augment="S549894151618818215">Odyssean Cuisses</legs>
+            <legs>Pumm. Cuisses +3</legs>
+            <feet>Pumm. Calligae +3</feet>          
+            <waist>Ioskeha Belt +1</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <ring1>Flamma Ring</ring1>
+            <ring2>Niqmaddu Ring</ring2>
+            <back augment="S255463270418575">Cichol's Mantle</back>
+        </set>
+        <set name="TPkclub">  
+            <ammo>Ginsen</ammo>
+            <head>Flam. Zucchetto +2</head>
+            <neck>War. Beads +2</neck>
+            <body>Emicho Haubert +1</body>
+            <hands>Emi. Gauntlets +1</hands>
+            <legs>Pumm. Cuisses +3</legs>
+            <feet>Pumm. Calligae +3</feet>          
+            <waist>Ioskeha Belt +1</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <ring1>Flamma Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S255463270418575">Cichol's Mantle</back>
+        </set>          
+        <set name="TPH2H">
+            <ammo>Yetshilla +1</ammo>
+
+            <head>Flam. Zucchetto +2</head>
+            <body>Hjarrandi Breast.</body>
+
+            <neck>War. Beads +2</neck>
+            <hands>Flam. Manopolas +2</hands>
+
+            <legs augment="S549894151618818215">Odyssean Cuisses</legs>
+            <legs>Pumm. Cuisses +3</legs>
+            <feet>Pumm. Calligae +3</feet>          
+            <waist>Ioskeha Belt +1</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <ring1>Petrov Ring</ring1>
+            <ring2>Niqmaddu Ring</ring2>
+            <back augment="S255463270418575">Cichol's Mantle</back>
+        </set>     
+        <set name="Precast">
+            <ammo>Sapience orb</ammo>
+            <head augment="D4071815123724">Carmine Mask +1</head>
+            <body augment="S18163584669836">Odyss. Chestplate</body>
+            <hands augment="S44552234942487140">Leyline gloves</hands>
+            <legs augment="D5171236116500">Eschite cuisses</legs>
+            <feet augment="D4107314417410">Carmine Greaves +1</feet>
+            <waist>Heko obi +1</waist>
+            <ear1>Loquac. Earring</ear1>
+            <ear2>Etiolation Earring</ear2>
+            <ring1>Evanescence Ring</ring1>
+            <ring2>Kishar Ring</ring2>
+            <back augment="S203784003604505">Niht Mantle</back>
+        </set>
+        <set name="WS">
+            <ammo>Knobkierrie</ammo>
+            <head>Agoge Mask +3</head>
+            <neck>Fotia Gorget</neck>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment ="D5192661221378">Argosy Sollerets +1</feet>       
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <!-- Scythe Weaponskill Sets -->
+        <set name="GaxeWS">
+            <ammo>Knobkierrie</ammo>
+            <head>Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet>Sulev. Leggings +2</feet>       
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Karieyh Ring</ring1>
+            <ring2>Epaminondas's Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="Upheaval">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="S6297767611198036932">Odyssean Gauntlets</hands> <!-- ACC19, ATCK19, WSD8  -->
+            <legs augment="S19795928397892">Odyssean Cuisses</legs>
+            <legs>Pumm. Cuisses +3</legs>
+
+            <feet>Sulev. Leggings +2</feet>       
+            <waist>Ioskeha Belt +1</waist>
+
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            
+            <ring1>Karieyh Ring</ring1>
+            <ring1>Niqmaddu Ring</ring1>
+
+            <ring2>Epaminondas's Ring</ring2>
+            <ring2>Regal Ring</ring2>
+
+            <back augment="S8137500502272218759">Cichol's Mantle</back>
+        </set>
+        <set name="cyclone">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="S6297767611198036932">Odyssean Gauntlets</hands> <!-- ACC19, ATCK19, WSD8  -->
+            <legs>Sulev. Cuisses +2</legs>
+            <feet>Sulev. Leggings +2</feet>  
+            <legs>Argosy Breeches +1</legs>     
+            <waist>Ioskeha Belt +1</waist>
+
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            
+            <ring1>Niqmaddu Ring</ring1>
+            <ring1>Karieyh Ring</ring1>
+
+            <ring2>Regal Ring</ring2>
+            <ring2>Epaminondas's Ring</ring2>
+
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="Ukko's Fury">
+            <ammo>Knobkierrie</ammo>
+            <ammo>Yetshila +1 </ammo>
+            <head>Argosy Celata +1</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet>Pumm. Calligae +3</feet>
+            <waist>Fotia belt</waist>
+            <neck>Fotia Gorget</neck>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="Fell Cleave">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet>Sulev. Leggings +2</feet>       
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Karieyh Ring</ring1>
+            <ring2>Epaminondas's Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="King's Justice">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment ="D5192661221378">Argosy Sollerets +1</feet>       
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <!-- GreatSword WS Sets -->
+        <set name="GreatSwordWS">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->             
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Epaminondas's Ring</ring1>
+            <ring2>Karieyh Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="Resolution">
+            <ammo>Seeth. Bomblet +1</ammo>
+            <head>Argosy Celata +1</head>
+            <head>Flam. Zucchetto +2</head>
+            <body>Argosy Hauberk +1</body>
+            <body>Dagon Breast.</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs>Pumm. Cuisses +3</legs>
+            <feet>Pumm. Calligae +3</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Cessance Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="savageblade">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands>
+            <body>Pumm. Lorica +3</body>
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->             
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="decimation">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <body>Pumm. Lorica +3</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet>Sulev. Leggings +2</feet>                 
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Cessance Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Karieyh Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="polewar">
+            <head augment="M1328">Agoge Mask +3</head>
+            <ammo>Knobkierrie</ammo>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <body augment="D20925277801407">Argosy Hauberk +1</body>
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Cessance Earring</ear2>
+            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->             
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <body>Pumm. Lorica +3</body>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="impulse">
+            <ammo>Yetshila +1</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands> <!-- Crit DMG -->
+            <body>Pumm. Lorica +3</body>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->  
+            <feet>Boii calligae +1</feet>           
+            <waist>Fotia Belt</waist>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="MightyWS">
+            <ammo>Yetshila +1</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands> <!-- Crit DMG -->
+            <body>Pumm. Lorica +3</body>
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet>Boii calligae +1</feet>           
+            <waist>Fotia Belt</waist>
+            <ear1>Thrud Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Karieyh Ring</ring1>
+            <ring2>Epaminondas's Ring</ring2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+        <set name="h2h1">
+            <head>Flam. Zucchetto +2</head>
+            <body>Dagon Breast.</body>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <hands>Argosy Mufflers +1</hands>
+            <legs>Argosy Breeches +1</legs>
+            <feet>Flam. Gambieras +2</feet>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Ishvara Earring</ear2>          
+        </set>
+        <set name="h2h2">
+            <ammo>Seeth. Bomblet +1</ammo>
+            <head>Flam. Zucchetto +2</head>
+            <body>Dagon Breast.</body>
+            <hands augment="D2710170112959">Argosy Mufflers +1</hands>          
+            <legs>Pumm. Cuisses +3</legs>
+            <feet>Pumm. Calligae +3</feet>
+            <neck>Fotia Gorget</neck>
+            <waist>Fotia Belt</waist>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Cessance Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>         
+        </set>
+        <set name="h2h3">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands>
+            <body>Pumm. Lorica +3</body>
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->             
+            <waist>Fotia Belt</waist>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Cessance Earring</ear2>
+            <ring1>Niqmaddu Ring</ring1>
+            <ring2>Regal Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+    </sets>
+   
+<variables>
+        <var name="init">0</var>
+        <var name="DT">Off</var>
+        <var name="hdt">Off</var>
+        <var name="kite">Off</var>
+        <var name="MP">Off</var>
+        <var name="tank">off</var>
+</variables>
+   
+<inputcommands>
+
+        <cmd input="/Warp">
+            <equip><lring>Warp Ring</lring></equip>
+            <equip><rring>Dim. Ring (Dem)</rring></equip>
+        </cmd>
+        
+        <cmd input="/DT">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="hdt" value="Off"/>
+            <if advanced="$DT=Off">
+                <setvar name="DT" value="On" />
+                <addtochat color="8">DT Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="DT" value="Off" />
+                <addtochat color="8">DT Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/tank">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="dt" value="Off"/>
+            <setvar name="hdt" value="Off"/>
+            <if advanced="$tank=Off">
+                <setvar name="tank" value="On" />
+                <addtochat color="8">Tank Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="tank" value="Off" />
+                <addtochat color="8">Tank Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+            <cmd input="/hdt">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="DT" value="Off"/>
+            <if advanced="$hdt=Off">
+                <setvar name="hdt" value="On" />
+                <addtochat color="8">Hyrbid Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="hdt" value="Off" />
+                <addtochat color="8">hdt Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/kite">    <!-- Set a keybind to /kite to toggle easily -->
+            <if advanced="$kite=Off">
+                <setvar name="kite" value="On" />
+                <addtochat color="8">Kite Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="kite" value="Off" />
+                <addtochat color="8">Kite Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>    
+                <cmd input="/clear">
+            <equip set="DT"/>
+        </cmd>     
+</inputcommands>
+   
+<jobability>
+        <if ad_name="Aggressor"><equip set="Aggressor"/>
+        </if>
+        <elseif ad_name="Warcry"><equip set="Warcry"/></elseif>
+        <elseif ad_name="Berserk"><equip set="Berserk"/></elseif>
+        <elseif ad_name="Retaliation"><equip set="Retaliation"/></elseif>
+        <elseif ad_name="Brazen Rush"><equip set="Brazen Rush"/></elseif>
+        <elseif ad_name="Provoke"><equip set="emnity"></equip></elseif>
+        <elseif ad_name="Tomahawk"><equip><ammo>Thr. Tomahawk</ammo></equip></elseif>
+</jobability>
+   
+<premagic>
+        <if ad_name="Impact">
+                    <equip set="ImpactFC" />
+                </if>
+        <if ad_name="Dread Spikes">
+            <equip set="Spikes" />
+        </if>
+        <else>
+            <equip set="Precast" />
+        </else>
+</premagic>
+   
+<midmagic>                              
+    <if ad_skill="DarkMagic">
+        <if ad_name="Drain*|Aspir*">
+            <equip set="Drain" />
+        </if>
+            <elseif ad_name="Absorb-*">
+                    <equip set="Absorb" />
+            </elseif>
+            <else>
+                    <equip set="Dark" />
+            </else>
+        </if>
+        <if ad_skill="EnfeeblingMagic">
+                <equip set="MACC" />
+        </if>
+        <if ad_skill="ElementalMagic">
+             <if ad_name="Impact">
+                  <equip set="Impact" />
+             </if>
+             <else>
+                  <equip set="Elemental" />
+             </else>
+        </if>
+</midmagic>
+   
+<idlegear>       
+         <if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <addtochat color="8">Starting up WAR</addtochat>
+            <command delay="1000">/macro book 1</command>
+            <command delay="2000">/macro set 2</command>  
+            <command delay="3000">/lockstyleset 100</command>           
+        </if>
+        <if p_status="engaged">
+            <if advanced="$DT=On">
+                <equip set="DT" />
+            </if>
+            <elseif>
+                <if advanced="$tank=On">
+                <equip set="tank" />
+                </if>
+                <elseif eq_main="Karambit">
+                    <equip set="TPH2H"/>
+                </elseif>
+                <elseif eq_sub="Kraken Club">
+                    <equip set="TPkclub"/>
+                </elseif>
+                <elseif>
+                    <equip set="TP" />
+                </elseif>
+            </elseif>   
+        </if>
+        <else> <equip set="Move" /> </else>
+          <if p_status="idle">
+            <if advanced="$DT=On">
+                <equip set="DT" />
+            </if>
+            <elseif>
+                <if advanced="$tank=On">
+                <equip set="tank" />
+                </if>
+            </elseif>
+         </if>
+         
+        <if eq_lring="Capacity Ring">
+         <equip lock="true">
+             <lring>Capacity Ring</lring>              
+         </equip>
+        </if>
+       
+        <if eq_lring="Trizek ring">
+         <equip lock="true">
+             <lring>Trizek ring</lring>              
+         </equip>
+        </if>
+       
+        <if eq_lring="Dim. Ring (Dem)">
+         <equip lock="true">
+             <lring>Dim. Ring (Dem)</lring>          
+         </equip>
+        </if>
+       
+        <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <rring>Dim. Ring (Dem)</rring>           
+         </equip>
+        </if> 
+       
+        <if eq_lring="Warp Ring">
+          <equip lock="true">
+             <lring>Warp Ring</lring>              
+          </equip>
+        </if>
+       
+</idlegear>
+   
+<weaponskill>
+        <if ad_name="Stardiver"><equip set="savageblade"/></if>
+       <if eq_main="Chango|Lycurgos">
+         <if ad_name="Upheaval"><equip set="Upheaval" />
+         </if>
+         <elseif ad_name="Ukko's Fury"><equip set="Ukko's Fury" /></elseif>
+         <elseif ad_name="Fell Cleave"><equip set="Fell Cleave" /></elseif>
+         <elseif ad_name="King's Justice"><equip set="King's Justice"/></elseif>
+         <elseif ad_name="Steel Cyclone"><equip set="cyclone"/></elseif>
+         <elseif><equip set="GaxeWS" /></elseif>
+        </if>
+        
+        <elseif eq_main="Ragnarok|Montante*|Raetic*">
+         <if ad_name="Resolution"><equip set="Resolution" /></if>
+         <elseif><equip set="GreatSwordWS" /></elseif>
+        </elseif>
+         <else>
+            <if ad_name="Savage Blade">
+                <equip set="savageblade"/>
+            </if>
+            <elseif ad_name="decimation">
+                <equip set="decimation"/>
+            </elseif>
+            <elseif eq_main="Shining*">
+                <equip set="polewar"/>
+            </elseif>
+            <elseif ad_name="impulse drive">
+                <equip set="impulse"/>
+            </elseif>
+            <else>
+                <equip set="WS" />
+            </else>
+        </else>
+        <if e_time=">17.01|&lt;6.59">
+            <equip>
+                <lear>Lugra Earring +1</lear>
+            </equip>
+        </if>
+        <if eq_man="Karambit">
+            <addtochat color="8">h2h set 3</addtochat>
+            <equip set="h2h3"/>
+        </if>
+        <if buffactive="Mighty Strikes">
+            <equip set="MightyWS"/>
+        </if>
+
+</weaponskill>
+   
+   
+   
+    </ashitacast>

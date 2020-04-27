@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+   <settings>
+      <!--Contains settings specific to this xml, must be set to true/false to override default-->
+      <buffupdate>true</buffupdate>
+      <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+      <statusupdate>true</statusupdate>
+      <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+      <hpupdate>true</hpupdate>
+      <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+      <autoupdate>true</autoupdate>
+      <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+   </settings>
+   <sets>
+      <set name="warp">
+            <lring>Warp Ring</lring>
+            <rring>Dim. Ring (Dem)</rring>
+      </set>
+      <!-- Job Ability Sets -->
+      <set name="Hasso">
+         <hands>Wakido Kote +3</hands>
+      </set>
+      <set name="provoke">
+         <neck>Unmoving Collar +1</neck>
+         <lear>Cryptic Earring</lear>
+         <ammo>Sapience Orb</ammo>
+         <lring>Petrov Ring</lring>
+      </set>
+      <set name="Meditate">
+         <hands augment="M1396">Sakonji Kote +3</hands>
+         <head>Wakido Kabuto +3</head>
+      </set>
+      <!-- DT sets -->
+      <set name="DT">
+         <neck>Loricate Torque +1</neck>
+         <ammo>Staunch tathlum +1</ammo>
+         <head>Ken. Jinpachi +1</head>
+         <body>Wakido Domaru +3</body>
+         <hands>Wakido Kote +3</hands>
+         <ear1>Dedition Earring</ear1>
+         <ear2>Telos Earring</ear2>
+         <ear1>Odnowa Earring +1</ear1>
+         <ear2>Hearty Earring</ear2>
+         <lring>Defending Ring</lring>
+         <rring>Gelatinous Ring +1</rring>
+         <waist>Flume Belt +1</waist>
+         <legs>Ken. Hakama +1</legs>
+         <feet>Ken. Sune-Ate +1</feet>
+         <back augment="S2554632705541542543">Smertrios's Mantle</back>
+      </set>
+      <set name="meva">
+         <neck>Loricate Torque +1</neck>
+         <ammo>Staunch tathlum +1</ammo>
+         <head>Ken. Jinpachi +1</head>
+         <body>Ken. Samue +1</body>
+         <hands>Wakido Kote +3</hands>
+         <ear1>Dedition Earring</ear1>
+         <ear2>Telos Earring</ear2>
+         <lring>Defending Ring</lring>
+         <rring>Chirich Ring +1</rring>
+         <waist>Ioskeha Belt +1</waist>
+         <legs>Ken. Hakama +1</legs>
+         <feet>Ken. Sune-Ate +1</feet>
+         <back augment="S2554632705541542543">Smertrios's Mantle</back>
+      </set>
+      <set name="acc">
+         <neck>Sam. Nodowa +2</neck>
+         <ammo>Staunch tathlum +1</ammo>
+         <head>Flam. Zucchetto +2</head>
+         <body>Ken. Samue +1</body>
+         <hands>Wakido Kote +3</hands>
+         <ear1>Dedition Earring</ear1>
+         <ear2>Telos Earring</ear2>
+         <ring1>Flamma Ring</ring1>
+         <ring2>Niqmaddu Ring</ring2>
+         <waist>Ioskeha Belt +1</waist>
+         <legs>Ken. Hakama +1</legs>
+         <feet>Ken. Sune-Ate +1</feet>
+         <back augment="S2554632705541542543">Smertrios's Mantle</back>
+         <ammo>Ginsen</ammo>
+
+      </set>
+      <set name="Move" baseset="DT">
+         <feet>Danzo sune-ate</feet>
+      </set>
+      <set name="TP">
+         <ammo>Ginsen</ammo>
+         <neck>Sam. Nodowa +2</neck>
+         <head>Flam. Zucchetto +2</head>
+         <body>Kasuga domaru +1</body>
+         <hands>Wakido Kote +3</hands>
+         <legs augment="D4106067974156">Ryuo Hakama +1</legs>
+         <feet augment="D8478344691714">Ryuo sune-ate +1</feet>
+         <waist>Ioskeha Belt +1</waist>
+         <lear>Dedition Earring</lear>
+         <rear>Telos Earring</rear>
+         <ring1>Petrov Ring</ring1>
+         <ring1>Flamma Ring</ring1>
+         <ring2>Niqmaddu Ring</ring2>
+         <back augment="S2554632705541542543">Smertrios's Mantle</back>
+      </set>
+      <set name="Precast">
+         <ammo>Impatiens</ammo>
+         <hands augment="S44552234942487140">Leyline gloves</hands>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Etiolation Earring</ear2>
+         <ring1>Evanescence Ring</ring1>
+         <ring2>Kishar Ring</ring2>
+      </set>
+      <set name="WS">
+         <ammo>Knobkierrie</ammo>
+         <neck>Sam. Nodowa +2</neck>
+         <head augment="S5418183911884918500">Valorous Mask</head> 
+         <feet augment="S9016037759797726647">Valorous greaves</feet>
+         <hands augment="S1253447496765694119">Valorous Mitts</hands>
+         <body augment="M1395">Sakonji Domaru +3</body>
+         <legs>Wakido Haidate +3</legs>
+         <waist>Fotia Belt</waist>
+         <lear>Ishvara Earring</lear>
+         <rear>Thrud Earring</rear>
+         <rear>Telos Earring</rear>
+         <ring1>Niqmaddu Ring</ring1>
+         <ring1>Regal Ring</ring1>
+         <ring2>Regal Ring</ring2>
+         <ring2>Epaminondas's Ring</ring2>
+         <back augment="S8136641508812818759">Smertrios's Mantle</back>
+      </set>
+      <set name="shoha">
+         <ammo>Knobkierrie</ammo>
+         <neck>Sam. Nodowa +2</neck>
+         <hands augment="S1253447496765694119">Valorous Mitts</hands>
+         <head>Flam. Zucchetto +2</head>
+         <body augment="M1395">Sakonji Domaru +3</body>
+         <feet>Flam. Gambieras +2</feet>
+         <legs>Wakido Haidate +3</legs>
+         <waist>Fotia Belt</waist>
+         <lear>Ishvara Earring</lear>
+         <rear>Thrud Earring</rear>
+         <ring2>Niqmaddu Ring</ring2>
+         <ring1>Flamma Ring</ring1>
+         <back augment="S8136641508812818759">Smertrios's Mantle</back>
+      </set>
+      <set name="rana">
+         <ammo>Knobkierrie</ammo>
+         <neck>Sam. Nodowa +2</neck>
+         <hands augment="S1253447496765694119">Valorous Mitts</hands>
+         <head>Flam. Zucchetto +2</head>
+         <body augment="M1395">Sakonji Domaru +3</body>
+         <feet>Flam. Gambieras +2</feet>
+         <legs>Wakido Haidate +3</legs>
+         <waist>Fotia Belt</waist>
+         <lear>Ishvara Earring</lear>
+         <rear>Thrud Earring</rear>
+         <ring1>Niqmaddu Ring</ring1>
+         <ring1>Flamma Ring</ring1>
+         <back augment="S8136641508812818759">Smertrios's Mantle</back>
+      </set>
+      <set name="impulse">
+         <ammo>Knobkierrie</ammo>
+         <neck>Sam. Nodowa +2</neck>
+         <head augment="S5418183911884918500">Valorous Mask</head>
+         <feet augment="S9016037759797726647">Valorous Greaves</feet>
+         <!-- STR11, ACC14, ATCK19, WSD4-->
+         <hands augment="S12534461552032418455">Valorous Mitts</hands>
+         <body augment="M1395">Sakonji Domaru +3</body>
+         <legs>Wakido Haidate +3</legs>
+         <waist>Fotia Belt</waist>
+         <waist>Ioskeha Belt +1</waist>
+         <lear>Ishvara Earring</lear>
+         <rear>Thrud Earring</rear>
+         <back augment="S8136641508812818759">Smertrios's Mantle</back>
+      </set>
+   </sets>
+   <variables>
+      <var name="init">0</var>
+      <var name="DT">Off</var>
+      <var name="ACC">Off</var>
+      <var name="meva">Off</var>
+      <var name="warp">Off</var>
+   </variables>
+   <inputcommands>
+      <cmd input="/Warp">
+            <equip>
+               <lring>Warp Ring</lring>
+               <rring>Dim. Ring (Dem)</rring>
+            </equip>
+      </cmd>
+      <cmd input="/th">
+         <equip>
+            <waist>Chaac Belt</waist>
+         </equip>
+      </cmd>
+      <cmd input="/DT">
+         <if advanced="$DT=Off">
+            <setvar name="DT" value="On" />
+            <setvar name="meva" value="Off" />
+            <setvar name="ACC" value="Off" />
+            <addtochat color="4">DT Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="ACC" value="Off" />
+            <setvar name="DT" value="Off"/>
+            <setvar name="meva" value="Off"/>            
+            <addtochat color="4">DT Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/meva">
+         <if advanced="$meva=Off">
+            <setvar name="meva" value="On" />
+            <setvar name="ACC" value="Off" />
+            <addtochat color="4">meva Mode: [Enabled]</addtochat>
+            <setvar name="DT" value="Off" />
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="ACC" value="Off" />
+            <setvar name="DT" value="Off"/>
+            <setvar name="meva" value="Off"/>            
+            <addtochat color="4">meva Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/acc">
+         <if advanced="$acc=Off">
+            <setvar name="ACC" value="On" />
+            <setvar name="DT" value="Off"/>
+            <setvar name="meva" value="Off"/>
+            <addtochat color="4">ACC Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="ACC" value="Off" />
+            <setvar name="DT" value="Off"/>
+            <setvar name="meva" value="Off"/>
+            <addtochat color="4">ACC Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+              <cmd input="/clear">
+            <equip set="DT"/>
+        </cmd>
+   </inputcommands>
+   <jobability>
+      <if ad_name="Hasso">
+         <equip set="Hasso" />
+      </if>
+      <elseif ad_name="Meditate">
+         <equip set="Meditate" />
+      </elseif>
+      <if ad_name="Meikyo Shisui">
+         <equip>
+            <feet>Sak. Sune-Ate +3</feet>
+         </equip>
+      </if>
+   </jobability>
+   <premagic>
+      <if ad_name="Impact">
+         <equip set="ImpactFC" />
+      </if>
+      <else>
+         <equip set="Precast" />
+      </else>
+   </premagic>
+   <midmagic>
+      <if ad_skill="DarkMagic">
+         <if ad_name="Drain*|Aspir*">
+            <equip set="Drain" />
+         </if>
+         <elseif ad_name="Absorb-*">
+            <equip set="Absorb" />
+         </elseif>
+         <else>
+            <equip set="Dark" />
+         </else>
+         <elseif ad_name="Dread*">
+            <equip set="Dread Spikes" />
+         </elseif>
+      </if>
+      <if ad_skill="EnfeeblingMagic">
+         <equip set="MACC" />
+      </if>
+      <if ad_skill="ElementalMagic">
+         <if ad_name="Impact">
+            <equip set="Impact" />
+         </if>
+         <else>
+            <equip set="Elemental" />
+         </else>
+      </if>
+   </midmagic>
+   <idlegear>
+      <if advanced="$init=0">
+         <setvar name="init" value="1" />
+         <addtochat color="8">Starting up SAM</addtochat>
+         <command delay="1000">/macro book 5</command>
+         <command delay="1500">/macro set 1</command>
+         <command delay="2000">/lockstyleset 99</command>
+         <command delay="2500">/addon load equipviewer</command>
+      </if>
+
+      <if p_status="engaged">
+
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <elseif advanced="$meva=On">
+            <equip set="meva" />
+         </elseif>
+         <elseif advanced="$ACC=On">
+            <equip set="acc" />
+         </elseif>
+         <else>
+            <equip set="TP" />
+         </else>
+
+      </if>
+      <elseif p_status="idle">
+         <if advanced="$meva=On">
+               <equip set="meva" />
+         </if>
+         <elseif advanced="$ACC=On">
+            <equip set="acc" />
+         </elseif>
+         <else>
+            <equip set="dt"/>
+         </equip>
+      </elseif>
+
+      
+      <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </if>
+      <if eq_lring="Warp Ring">
+         <equip lock="true">
+            <lring>Warp Ring</lring>
+         </equip>
+      </if>
+   </idlegear>
+   <weaponskill>
+      <if ad_name="Tachi: shoha">
+         <equip set="shoha" />
+         <addtochat color="4">Shoha Time</addtochat>
+      </if>
+      <elseif ad_name="Impulse Drive">
+         <equip set="impulse" />
+         <addtochat color="4">Impulse Time</addtochat>
+      </elseif>
+      <else>
+         <equip set="WS" />
+      </else>
+   </weaponskill>
+</ashitacast>

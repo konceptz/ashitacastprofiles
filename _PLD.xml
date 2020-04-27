@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+   <settings>
+      <!--Contains settings specific to this xml, must be set to true/false to override default-->
+      <buffupdate>true</buffupdate>
+      <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+      <statusupdate>true</statusupdate>
+      <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+      <hpupdate>false</hpupdate>
+      <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+      <autoupdate>true</autoupdate>
+      <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+   </settings>
+   <sets>
+      <!--  Job Ability Sets-->
+      <set name="emnityset">
+         <lring>Apeile Ring +1</lring>
+		    <rring>Apeile Ring</rring>
+         <ammo>Sapience Orb</ammo>
+		    <back>Philidor Mantle</back>
+         <body augment="D15938765744130">Souv. Cuirass +1</body>
+         <head augment="D15938765744130">Souv. Schaller +1</head>
+         <hands augment="D15938765744130">Souv. Handsch. +1</hands>
+         <legs augment="D15938765744130">Souv. Diechlings +1</legs>
+         <feet augment="D15938765744130">Souveran Schuhs +1</feet>
+         <lear>Cryptic Earring</lear>
+         <neck>Moonlight Necklace</neck> 
+      </set>
+      <set name="invincibleset" baseset="emnityset"/>
+      <set name="holycircleset" baseset="emnityset"/>
+      <set name="shieldbashset" baseset="emnityset"/>
+      <set name="sentinelset" baseset="emnityset"/>
+      <set name="coverset" baseset="emnityset"/>
+      <set name="rampartset" baseset="emnityset"/>
+      <set name="fealtyset" baseset="emnityset"/>
+      <set name="Divine Emblem" baseset="emnityset"/>
+      <set name="sepulcherset" baseset="emnityset"/>
+      <set name="interveneset" baseset="emnityset"/>
+      <!-- DT sets -->
+      <set name="dtset">
+
+         <body>Volte Haubert</body>
+		   <rear>Odnowa Earring +1</rear>
+         <lring>Moonlight Ring</lring>
+         <neck>Loricate Torque +1</neck>
+         <rring>Moonlight Ring</rring>
+         <waist>Flume Belt +1</waist>
+
+
+         <lear>Cryptic Earring</lear>   
+
+         <head>Volte Salade</head>
+         <hands>Volte moufles</hands>
+         <legs>Volte Brayettes</legs>
+         <feet>Volte sollerets</feet>
+
+		 <back augment="S79502400133199612564992">Rudianos's Mantle</back>
+
+      </set>
+      <set name="hdtset">
+            <ammo>Ginsen</ammo>
+
+         <head>Volte Salade</head>
+         <hands>Volte moufles</hands>
+         <legs>Volte Brayettes</legs>
+         <feet>Volte sollerets</feet>
+         <lear>Cryptic Earring</lear>   
+            <neck>Loricate Torque +1</neck>
+            <waist>Sailfi Belt +1</waist>
+            <ear1>Cessance Earring</ear1>
+            <ear2>Telos Earring</ear2>
+            <ring1>Moonlight Ring</ring1>
+            <ring2>Moonlight Ring</ring2>	
+
+	  </set>
+      <set name="mdtset" />
+      <set name="kiteset" baseset="dtset">
+         <legs augment="D6232182625036">Carmine Cuisses +1</legs>
+      </set>
+      <!-- Aegis Sets -->
+      <!-- Ochain Sets -->
+      <!-- Magic Sets -->
+      <set name="precastset">
+         <head augment="D4071815123724">Carmine Mask +1</head>
+         <back>Moonbeam Cape</back>
+         <neck>Voltsurge torque</neck>
+         <rear>Louac. Earring</rear>
+         <lear>Etiolation Earring</lear>
+         <rring>Kishar Ring</rring>
+         <ammo>Sapience Orb</ammo>
+         <hands>Leyline Gloves</hands>
+         <feet augment="S18164096968739">Odyssean Greaves</feet>
+         <body augment="S18163584669836">Odyss. Chestplate</body>
+         <legs>Eschite Cuisses</legs>
+         <back augment="S0541542540">Rudianos's mantle</back>
+         <back>moonbeam cape</back>
+      </set>
+      <set name="healingset">
+         <body augment="D15938765744130">Souv. Cuirass +1</body>
+         <head augment="D15938765744130">Souv. Schaller +1</head>
+		    <hands>Regal Gauntlets</hands>
+         <legs augment="D6232182625036">Carmine Cuisses +1</legs>
+         <feet augment="S18164096968739">Odyssean Greaves</feet>
+         <neck>Moonlight Necklace</neck>
+         <rear>Magnetic Earring</rear>
+		    <ammo>Staunch Tathlum +1</ammo>
+		    <waist>Rumination Sash</waist> 
+          <back>moonbeam cape</back>
+      </set>
+      <set name="midcastset">
+         <body augment="D15938765744130">Souv. Cuirass +1</body>
+         <head augment="D15938765744130">Souv. Schaller +1</head>
+          <hands>Regal Gauntlets</hands>
+         <legs augment="D6232182625036">Carmine Cuisses +1</legs>
+         <feet augment="S18164096968739">Odyssean Greaves</feet>
+         <neck>Moonlight Necklace</neck>
+         <rear>Magnetic Earring</rear>
+          <ammo>Staunch Tathlum +1</ammo>
+          <waist>Rumination Sash</waist> 
+          <back>moonbeam cape</back>
+      </set>
+      <set name="enhancingset" base="emnityset">
+		<hands>Regal Gauntlets</hands>
+      <legs>Carmine Cuisses +1</legs>
+	  </set>
+      <set name="divineset" />
+      <!-- Weaponskills -->
+      <set name="cdc">
+         <lear>Brutal Earring</lear>
+         <rear>Ishvara Earring</rear>
+          <neck>Fotia Gorget</neck>
+         <waist>Fotia belt</waist>
+         <lring>Regal Ring</lring>
+         <rring>Epaminondas's Ring</rring>
+        <head augment="S5418183911884918500">Valorous Mask</head>
+         <hands augment="S12534461552032418455">Valorous Mitts</hands>
+         <legs>Sulev. Cuisses +2</legs>
+         <feet>Sulev. Leggings +2</feet>
+         <body>Volte Harness</body>         
+      </set>
+      <set name="savagebladeset">
+         <neck>Fotia Gorget</neck>
+         <waist>Fotia belt</waist>
+         <lring>Epaminondas's Ring</lring>
+         <rring>Regal ring</rring>
+         <lear>Brutal Earring</lear>
+         <rear>Ishvara Earring</rear>
+	     <head augment="S5418183911884918500">Valorous Mask</head>
+         <hands augment="S12534461552032418455">Valorous Mitts</hands>
+         <legs augment="D20925277801407">Argosy Breeches +1</legs>
+         <feet>Sulev. Leggings +2</feet> 
+		 <body augment="D20925277801407">Argosy Hauberk +1</body>
+       <body>Dagon Breast.</body>
+      </set>
+      <set name="greatswordwsset">
+         <neck>Fotia Gorget</neck>
+         <waist>Fotia belt</waist>
+         <lring>Epaminondas's Ring</lring>
+         <rring>regal ring</rring>
+         <lear>Brutal Earring</lear>
+         <rear>Ishvara Earring</rear>
+	     <head augment="S5418183911884918500">Valorous Mask</head>
+         <hands augment="S12534461552032418455">Valorous Mitts</hands>
+         <feet>Sulev. Leggings +2 </feet>
+		 <body>Dagon Breast.</body>
+		</set>
+      <set name="resolutionset">
+         <neck>Fotia Gorget</neck>
+         <waist>Fotia belt</waist>
+         <lring>Epaminondas's Ring</lring>
+         <rring>regal ring</rring>
+         <lear>Brutal Earring</lear>
+         <rear>Ishvara Earring</rear>
+	     <head augment="S12534461547727322551">Valorous Mask</head>
+         <hands augment="S12534461552032418455">Valorous Mitts</hands>
+         <feet>Sulev. Leggings +2 </feet>
+		 <body>Dagon Breast.</body>
+		</set>
+      <set name="torcleaverset">
+         <neck>Fotia Gorget</neck>
+         <waist>Fotia belt</waist>
+         <lring>Epaminondas's Ring</lring>
+         <rring>Regal ring</rring>
+         <lear>Brutal Earring</lear>
+         <rear>Ishvara Earring</rear>
+            <hands augment="S6297767611198036932">Odyssean Gauntlets</hands> <!-- ACC19, ATCK19, WSD8  -->
+            <head augment="S6297992568883432836">Odyssean Helm</head> <!-- Vit 5, ACC20, ATCK34, WSD 5 -->
+
+            <legs>Sulev. Cuisses +2</legs>
+            <feet>Sulev. Leggings +2</feet>
+		 <body>Dagon Breast.</body>
+		</set>
+      <set name="swordwsset">
+         <neck>Fotia Gorget</neck>
+         <waist>Fotia belt</waist>
+         <lring>Epaminondas's Ring</lring>
+         <rring>regal ring</rring>
+         <lear>Brutal Earring</lear>
+         <rear>Ishvara Earring</rear>
+
+      </set>
+        <set name="impulse">
+            <ammo>Knobkierrie</ammo>
+            <head augment="M1328">Agoge Mask +3</head>
+            <hands augment="S12534461552032418455">Valorous Mitts</hands> <!-- Crit DMG -->
+            <body>Pumm. Lorica +3</body>
+            <legs augment="D20925277801407">Argosy Breeches +1</legs>
+            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->  
+            <feet>Sulev. Leggings +2</feet>           
+            <waist>Fotia Belt</waist>
+            <ear1>Brutal Earring</ear1>
+            <ear2>Ishvara Earring</ear2>
+            <ring1>Karieyh Ring</ring1>
+            <ring2>Epaminondas's Ring</ring2>
+            <back augment="S8137071005542418759">Cichol's Mantle</back>
+        </set>
+   </sets>
+   <variables>
+      <var name="init">0</var>
+      <var name="DT">Off</var>
+      <var name="hdt">Off</var>
+      <var name="kite">Off</var>
+   </variables>
+   <inputcommands>
+      <cmd input="/Warp">
+         <equip>
+            <lring>Warp Ring</lring>
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </cmd>
+        <cmd input="/clear">
+            <equip set="DT"/>
+                <setvar name="mdt" value="Off" />
+                <setvar name="DT" value="Off" />
+                <setvar name="hdt" value="Off" />
+                <addtochat color="8">------------[Clearing all variables]--------------</addtochat>
+        </cmd>
+      <cmd input="/DT">
+         <!-- Set a keybind to /DT to toggle easily -->
+         <setvar name="hdt" value="Off" />
+         <if advanced="$DT=Off">
+            <setvar name="DT" value="On" />
+            <addtochat color="8">DT Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="DT" value="Off" />
+            <addtochat color="8">DT Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/hdt">
+         <!-- Set a keybind to /DT to toggle easily -->
+         <setvar name="DT" value="Off" />
+         <if advanced="$hdt=Off">
+            <setvar name="hdt" value="On" />
+            <addtochat color="8">Hyrbid Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="hdt" value="Off" />
+            <addtochat color="8">hdt Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/kite">
+         <!-- Set a keybind to /kite to toggle easily -->
+         <if advanced="$kite=Off">
+            <setvar name="kite" value="On" />
+            <addtochat color="8">Kite Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="kite" value="Off" />
+            <addtochat color="8">Kite Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+              <cmd input="/clear">
+            <equip set="DT"/>
+        </cmd>
+   </inputcommands>
+   <jobability>
+      <if ad_name="Invincible">
+         <equip set="invincibleset" />
+      </if>
+      <elseif ad_name="Holy Circle">
+         <equip set="holycircleset" />
+      </elseif>
+      <elseif ad_name="Shield Bash">
+         <equip set="shieldbashset" />
+      </elseif>
+      <elseif ad_name="Sentinel">
+         <equip set="sentinelset" />
+      </elseif>
+      <elseif ad_name="Cover">
+         <equip set="coverset" />
+      </elseif>
+      <elseif ad_name="Rampart">
+         <equip set="rampartset" />
+      </elseif>
+      <elseif ad_name="Fealty">
+         <equip set="fealtyset" />
+      </elseif>
+      <elseif ad_name="Chivalry">
+         <equip set="Divine Emblem" />
+      </elseif>
+      <elseif ad_name="Sepulcher">
+         <equip set="sepulcherset" />
+      </elseif>
+      <elseif ad_name="Intervene">
+         <equip set="interveneset" />
+      </elseif>
+      <elseif ad_name="Provoke">
+         <equip set="emnityset" />
+      </elseif>
+      <else>
+         <equip set="emnityset" />
+      </else>
+   </jobability>
+   <premagic>
+      <if ad_name="Impact" />
+      <if ad_name="Dread Spikes" />
+      <else>
+         <equip set="precastset" />
+      </else>
+   </premagic>
+   <midmagic>
+      <if ad_skill="healingmagic">
+         <addtochat color="8">Healing Set</addtochat>
+         <equip set="midcastset" />
+      </if>
+      <elseif ad_skill="enhancingmagic">
+         <addtochat color="8">Enhancing Set</addtochat>
+         <equip set="midcastset" />
+      </elseif>
+      <elseif ad_skill="divinemagic">
+         <if ad_name="Flash">
+            <addtochat color="8">Emnity Set</addtochat>
+            <equip set="emnityset" />
+         </if>
+         <else>
+            <addtochat color="8">Divine Set</addtochat>
+         </else>
+         <equip set="divineset" />
+      </elseif>
+   </midmagic>
+   <idlegear>
+
+     <if advanced="$init=0">
+         <setvar name="init" value="1" />
+         <addtochat color="8">Starting up PLD</addtochat>
+         <command delay="1000">/macro book 2</command>
+         <command delay="1500">/macro set 1</command>
+         <command delay="2000">/lockstyleset 100</command>
+         <command delay="2500">/addon load equipviewer</command>
+      </if>
+
+
+      <if p_status="engaged">
+         <if advanced="$DT=On">
+            <equip set="dtset" />
+         </if>
+         <if advanced="$hdt=On">
+            <equip set="hdtset" />
+         </if>
+         <elseif>
+            <if advanced="$kite=On">
+               <equip set="kiteset" />
+            </if>
+            <elseif>
+               <equip set="dtset" />
+            </elseif>
+         </elseif>
+      </if>
+      <else>
+         <equip set="kiteset" />
+      </else>
+      <if p_status="idle">
+         <if advanced="$DT=On">
+            <equip set="dtset" />
+         </if>
+         <if advanced="$hdt=On">
+            <equip set="hdtset" />
+         </if>
+         <elseif>
+            <if advanced="$kite=On">
+               <equip set="kiteset" />
+            </if>
+         </elseif>
+      </if>
+      <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </if>
+      <if eq_lring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <lring>Dim. Ring (Dem)</lring>
+         </equip>
+      </if>
+      <if eq_lring="Warp Ring">
+         <equip lock="true">
+            <lring>Warp Ring</lring>
+         </equip>
+      </if>
+      <if eq_back="Mecisto. Mantle">
+         <equip lock="true">
+            <back>Mecisto. Mantle</back>
+         </equip>
+      </if>
+   </idlegear>
+   <weaponskill>
+      <if eq_main="Ragnarok|Caladbolg">
+         <if ad_name="Resolution">
+            <equip set="resolutionset" />
+         </if>
+         <elseif ad_name="Torcleaver">
+            <equip set="torcleaverset" />
+         </elseif>
+         <elseif>
+            <equip set="greatswordwsset" />
+         </elseif>
+      </if>
+      <else>
+         <if ad_name="Savage Blade">
+            <equip set="savagebladeset" />
+         </if>
+         <else>
+            <equip set="swordwsset" />
+         </else>
+      </else>
+      <if ad_name="impulse drive"><equip set="impulse"/></if>
+	  <if e_time=">17.01|<6.59">
+			<equip>
+				<lear>Lugra Earring +1</lear>
+				<rear>Lugra Earring</rear>
+			</equip>
+		</if>
+      <if ad_name="Chant du Cygne"><equip set="cdc"/></if>
+   </weaponskill>
+</ashitacast>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+    <settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+        <buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+        <statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+        <hpupdate>true</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+        <autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+    </settings>
+
+<!-- BACKS
+<back augment="S79326306474063612583463">Ogma's Cape</back>  Emnity
+<back augment="S018572">Ogma's Cape</back> Fastcast
+<back augment="S79326306474063612564992">Ogma's Cape</back> MEVA
+<back augment="S37390244944385612583751">Ogma's Cape</back> Dimi WSD
+
+-->
+
+
+<sets>
+    <set name="warp" >
+        <lring>Warp Ring</lring>
+        <rring>Dim. Ring (Dem)</rring>
+    </set>
+      <!-- Job Ability Sets -->
+    <set name="Pflug" baseset="enmity">
+        <feet>Runeist's Boots +2</feet>   
+    </set>
+    <set name="Valiance" baseset="enmity">
+        <body>Runeist's Coat +3</body>
+    </set>
+    <set name="Vallation" baseset="enmity">
+        <body>Runeist's Coat +3</body>
+    </set>
+    <set name="Embolden" baseset="enmity">
+    </set>
+    <set name="Vivacious PUlse" baseset="enmity">
+    </set>
+    <set name="Swordplay" baseset="enmity">
+        <hands>Futhark Mitons +1</hands>
+    </set>
+    <set name="Gambit" baseset="enmity">
+        <hands>Runeist's Mitons +3</hands>
+        <head>Fu. Bandeau +3</head>
+    </set>s
+
+    <set name="Rayke" baseset="enmity">
+        <feet>Futhark Boots</feet>
+    </set>
+    <set name="Liement" baseset="enmity">
+        <body>Futhark Coat +3</body>
+    </set>
+    <set name="One for All" baseset="enmity">
+    </set>
+    <set name="Odyllic Subterfuge" baseset="enmity">
+    </set>
+
+    <!-- JA Sets -->
+    <set name="enmity">
+        <ammo>Sapience Orb</ammo>
+        <neck>Futhark Torque +2</neck>
+        <hands>Kurys Gloves</hands>
+        <neck>Moonlight Necklace</neck>
+        <body>Emet Harness +1</body>
+        <lring>Eihwaz Ring</lring>
+        <rring>Petrov Ring</rring>
+        <back augment="S79326306474063612583463">Ogma's Cape</back> <!-- Emnity -->
+        <waist></waist>
+        <legs>Eri. Leg Guards +1</legs>
+        <feet>Erilaz Greaves +1</feet>
+    </set>
+     <set name="idle" baseset="mdt">
+        <body>Futhark Coat +3</body>
+
+     </set>
+    <!--- DT sets -->
+    <set name="DT">
+
+        <ammo>Staunch Tathlum +1</ammo>
+        <head>Turms Cap +1</head>
+        <neck>Futhark Torque +2</neck>
+        <lear>Etiolation Earring</lear>
+        <rear>Odnowa Earring +1</rear>
+        <body>Futhark Coat +3</body>
+        <body>Ashera Harness</body>
+
+        <hands>Turms Mittens +1</hands>
+        <lring>Defending Ring</lring>
+        <rring>Vocane Ring</rring>
+        <back augment="S79326306474063612583463">Ogma's Cape</back>  
+        <waist>Flume Belt +1</waist>
+        <legs>Eri. Leg Guards +1</legs>
+        <feet>Turms Leggings +1</feet>  
+    </set>
+    <set name="mdt">
+        <ammo>Staunch Tathlum +1</ammo>
+        <head>Fu. Bandeau +3</head>
+        <head>Turms Cap +1</head>
+
+        <neck>Futhark Torque +2</neck>
+        <lear>Hearty Earring</lear>
+        <rear>Odnowa Earring +1</rear>
+        <body>Ashera Harness</body>
+        <hands>Turms Mittens +1</hands>
+        <lring>Defending Ring</lring>
+        <rring>Vocane Ring</rring>
+        <back augment="S79326306474063612564992">Ogma's Cape</back> <!-- MEVA -->
+        <waist>Flume Belt +1</waist>
+        <legs>Rune. Trousers +3</legs>
+        <feet>Turms Leggings +1</feet>  
+    </set>
+    <set name="hdt">
+        <head>Aya. zucchetto +2</head>
+        <neck>Futhark Torque +2</neck>
+        <lear>Brutal Earring</lear>
+        <rear>Sherida Earring</rear>
+        <body>Ashera Harness</body>
+        <hands>Adhemar Wrist. +1</hands>
+        <lring>Ilabrat Ring</lring>
+        <rring>Petrov Ring</rring>
+        <back augment="S79326306474063612564992">Ogma's Cape</back> <!-- MEVA -->
+        <waist>Windbuffet Belt +1</waist>
+        <legs>Meg. Chausses +2</legs>
+        <feet>Aya. Gambieras +2</feet>   
+    </set>
+    <set name="TP">
+        <ammo>Yamarang</ammo>
+        <head>adhemar bonnet +1</head>
+        <neck>anu torque</neck>
+        <lear>Brutal Earring</lear>
+        <rear>Sherida Earring</rear>
+        <body>Ashera Harness</body>
+        <hands>Adhemar Wrist. +1</hands>
+        <lring>Ilabrat Ring</lring>
+        <rring>Epona's Ring</rring>
+        <back augment="S79326306474063612564992">Ogma's Cape</back> <!-- MEVA -->
+        <waist>Windbuffet Belt +1</waist>
+        <legs>Meg. Chausses +2</legs>
+        <feet>Turms Leggings +1</feet>
+        <feet>Herculean Boots</feet>   
+    </set>
+    <set name="dd">
+        <ammo>Yamarang</ammo>
+        <head>adhemar bonnet +1</head>
+        <neck>anu torque</neck>
+        <lear>Brutal Earring</lear>
+        <rear>Sherida Earring</rear>
+        <body>Ashera Harness</body>
+        <hands>Adhemar Wrist. +1</hands>
+        <lring>Ilabrat Ring</lring>
+        <rring>Epona's Ring</rring>
+        <back augment="S79326306474063612564992">Ogma's Cape</back> <!-- MEVA -->
+        <waist>Windbuffet Belt +1</waist>
+        <legs>Meg. Chausses +2</legs>
+        <feet>Turms Leggings +1</feet>
+        <feet>Herculean Boots</feet>   
+    </set>
+    <set name="TPAM">
+
+    </set>
+    <set name="Precast">
+
+        <ammo>Sapience Orb</ammo>
+        <head>Rune. Bandeau +3</head>
+        <neck>Voltsurge Torque</neck>
+        <lear>Etiolation Earring</lear>
+        <rear>Loquac. Earring</rear>
+        <hands>Leyline Gloves</hands>
+        <lring>kishar ring</lring>
+        <back augment="S018572">Ogma's Cape</back> <!-- FC -->
+        <legs>Aya. Cosciales +2</legs>
+    </set>
+    <!-- Midcast Sets -->
+    <set name="Midcast" baseset="enmity"></set>
+    <set name="MidcastPhalanx" baseset="MidcastEnhancing">
+        <head>Fu. Bandeau +3</head>
+        <body>Taeon Tabard</body>
+        <neck>Incanter's Torque</neck>
+        <lring>Stikini Ring +1</lring>
+        <rring>Stikini Ring +1</rring>
+        <waist>Olympus Sash</waist>
+        <hands>Taeon Gloves</hands>
+        <feet>Taeon Boots</feet>
+    </set>
+    <set name="MidcastTemper" baseset="MidcastEnhancing">
+        <head>Carmine Mask +1</head>  
+        <neck>Incanter's Torque</neck>
+        <lear>Andoaa Earring</lear>
+        <lring>Stikini Ring +1</lring>
+        <rring>Stikini Ring +1</rring>
+        <waist>Olympus Sash</waist>
+        <legs>Carmine Cuisses +1</legs>
+    </set>
+    <set name="MidcastEnhancing" baseset="enmity">
+        <head>Erilaz Galea +1</head>
+        <neck>Incanter's Torque</neck>
+        <hands>Runeist's Mitons +3</hands>
+        <legs>Futhark Trousers +3</legs>
+        <lear>Andoaa Earring</lear>
+        <lring>Stikini Ring +1</lring>
+        <rring>Stikini Ring +1</rring>
+        <waist>Olympus Sash</waist>
+    </set>
+    <!-- WEAPONSKILLS  -->
+
+    <set name="Dimidiation"> 
+        <main></main>
+        <sub></sub>
+        <range></range>
+        <ammo>knobkierrie</ammo>
+        <head augment="S637762592686764121">Herculean Helm</head>
+        <neck>anu Torque</neck>
+        <lear>Sherida Earring</lear>
+        <rear>Moonshade Earring</rear>
+        <body augment="S1077568585892521612259351">Herculean Vest</body>
+        <hands>Meg. Gloves +2</hands>
+        <lring>Ilabrat Ring</lring>
+        <rring>Epaminondas's Ring</rring>
+        <back augment="S37390244944385612583751">Ogma's Cape</back> <!-- Dimi WSD -->
+        <waist>Windbuffet Belt +1</waist>
+        <legs>Meg. Chausses +2</legs>
+        <feet>Herculean Boots</feet>    
+    </set>
+    <!-- Scythe Weaponskill Sets -->
+    <set name="Resolution">
+        <ammo>Yamarang</ammo>
+        <head>Lustratio Cap +1</head>
+        <neck></neck>
+        <lear>Sherida Earring</lear>
+        <rear>Moonshade Earring</rear>
+        <body>Lustr. Harness +1</body>
+        <body>Adhemar Jacket +1</body>
+        <hands augment="S3739655816608418455">Herculean Gloves</hands>
+        <lring>Epona's Ring</lring>
+        <rring>Niqmaddu Ring</rring>
+        <back augment="S37390244944385612583751">Ogma's Cape</back> <!-- Dimi WSD -->
+        <waist>Light Belt</waist>
+        <legs>Samnuha Tights</legs>
+        <legs>Meg. Chausses +2</legs>
+
+        <feet>Herculean Boots</feet>       
+    </set>
+    <set name="WS">
+        <main></main>
+        <sub></sub>
+        <range></range>
+        <ammo>Yamarang</ammo>
+        <head>adhemar bonnet +1</head>
+        <neck></neck>
+        <lear>Sherida Earring</lear>
+        <rear>Moonshade Earring</rear>
+        <body>Adhemar Jacket</body>
+        <hands>Meg. Gloves +2</hands>
+        <lring>Epona's Ring</lring>
+        <rring>Epaminondas's Ring</rring>
+        <back augment="S37390244944385612583751">Ogma's Cape</back> <!-- Dimi WSD -->
+        <waist>Windbuffet Belt +1</waist>
+        <legs>Meg. Chausses +2</legs>
+        <feet>Herculean Boots</feet>        
+    </set>
+    <set name="SavageBlade">
+        <main></main>
+        <sub></sub>
+        <range></range>
+        <ammo>Yamarang</ammo>
+        <head>adhemar bonnet +1</head>
+        <neck></neck>
+        <lear>Sherida Earring</lear>
+        <rear>Moonshade Earring</rear>
+        <body>Adhemar Jacket</body>
+        <hands>Meg. Gloves +2</hands>
+        <lring>Epona's Ring</lring>
+        <rring>Ilabrat Ring</rring>
+        <back augment="S37390244944385612583751">Ogma's Cape</back> <!-- Dimi WSD -->
+        <waist>Windbuffet Belt +1</waist>
+        <legs>Meg. Chausses +2</legs>
+        <feet>Herculean Boots</feet>     
+    </set>
+
+</sets>
+   
+<variables>
+        <var name="init">0</var>
+        <var name="DT">Off</var>
+        <var name="hdt">Off</var>
+        <var name="kite">Off</var>
+        <var name="dd">Off</var>
+        <var name="mdt">off</var>
+</variables>
+   
+<inputcommands>
+        <cmd input="/Warp">
+            <equip><lring>Warp Ring</lring></equip>
+            <equip><rring>Dim. Ring (Dem)</rring></equip>
+        </cmd>
+        <cmd input="/clear">
+            <equip set="DT"/>
+                <setvar name="mdt" value="Off" />
+                <setvar name="DT" value="Off" />
+                <setvar name="hdt" value="Off" />
+                <addtochat color="8">------------[Clearing all variables]--------------</addtochat>
+        </cmd>
+        <cmd input="/DT">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="hdt" value="Off"/>
+            <setvar name="mdt" value="Off"/>
+            <setvar name="dd" value="Off"/>
+            <if advanced="$DT=Off">
+                <setvar name="DT" value="On" />
+                <addtochat color="8">DT Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="DT" value="Off" />
+                <addtochat color="8">DT Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/MDT">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="DT" value="Off"/>
+            <setvar name="hdt" value="Off"/>
+            <setvar name="dd" value="Off"/>
+            <if advanced="$mdt=Off">
+                <setvar name="mdt" value="On" />
+                <addtochat color="8">MDT/MEVA Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="mdt" value="Off" />
+                <addtochat color="8">MDT/MEVA Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/hdt">   <!-- Set a keybind to /DT to toggle easily -->
+            <setvar name="DT" value="Off"/>
+            <setvar name="mdt" value="Off"/>
+            <setvar name="dd" value="Off"/>
+            <if advanced="$hdt=Off">
+                <setvar name="hdt" value="On" />
+                <addtochat color="8">HDT Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="hdt" value="Off" />
+                <addtochat color="8">HDT Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+
+        <cmd input="/kite">    <!-- Set a keybind to /kite to toggle easily -->
+            <if advanced="$kite=Off">
+                <setvar name="kite" value="On" />
+                <addtochat color="8">Kite Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="kite" value="Off" />
+                <addtochat color="8">Kite Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>
+        <cmd input="/dd">    <!-- Set a keybind to /kite to toggle easily -->
+            <if advanced="$dd=Off">
+                <setvar name="dd" value="On" />
+                <addtochat color="8">MP Mode: [Enabled]</addtochat>
+                <doidlegear />
+            </if>
+            <else>
+                <setvar name="dd" value="Off" />
+                <addtochat color="8">MP Mode: [Disabled]</addtochat>
+                <doidlegear />
+            </else>
+        </cmd>      
+       
+</inputcommands>
+   
+<jobability>
+        <if ad_name="Elemental Sforzo">
+            <addtochat color="8">------------[Using Elemental Sforzo]--------------</addtochat>
+            <equip set="Elemental Sforzo"/>
+        </if>
+        <elseif ad_name="Pflug">
+            <addtochat color="8">------------[Using Pflug]--------------</addtochat>
+            <equip set="Pflug"/>
+        </elseif>
+        <elseif ad_name="Valiance">
+            <addtochat color="8">------------[Using Valiance]--------------</addtochat>
+            <equip set="Valiance"/>
+        </elseif>
+        <elseif ad_name="Embolden">
+            <addtochat color="8">------------[Using Embolden]--------------</addtochat>
+            <equip set="Embolden"/>
+        </elseif>
+        <elseif ad_name="Vivacious Pulse">
+            <addtochat color="8">------------[Using Vivacious Pulse]--------------</addtochat>
+            <equip set="Vivacious Pulse"/>
+        </elseif>
+        <elseif ad_name="Gambit">
+            <addtochat color="8">------------[Using Gambit]--------------</addtochat>
+            <equip set="Gambit"/>
+        </elseif>
+        <elseif ad_name="Battuta">
+            <addtochat color="8">------------[Using Batutta]--------------</addtochat>
+            <equip set="Battuta"/>
+        </elseif>
+        <elseif ad_name="Rayke">
+            <addtochat color="8">------------[Using Rayke]--------------</addtochat>
+            <equip set="Rayke"/>
+        </elseif>
+        <elseif ad_name="Liement">
+            <addtochat color="8">------------[Using Liement]--------------</addtochat>
+            <equip set="Liement"/>
+        </elseif>
+        <elseif ad_name="One for All">
+            <addtochat color="8">------------[Using One for All]--------------</addtochat>
+            <equip set="One for All"/>
+        </elseif>
+        <elseif ad_name="Swordplay">
+            <addtochat color="8">------------[Using Swordplay]--------------</addtochat>
+            <equip set="One for All"/>
+        </elseif>
+        <elseif ad_name="SoulEater|Last Resort">
+            <addtochat color="8">------------[Using Dark JAs]--------------</addtochat>
+            <equip set="Emnity"/>
+        </elseif>
+        <elseif ad_name="Odyllic Subterfuge">
+            <addtochat color="8">------------[Using Odyllic Subterfuge]--------------</addtochat>
+            <equip set="Odyllic Subterfuge"/>
+        </elseif>
+
+
+</jobability>
+   
+<premagic>
+        <if ad_skill="enhancingmagic">
+            <addtochat color="8">------------[Using Enhancing  Magic Precast]--------------</addtochat>
+
+            <equip set="Precast"/>
+            <equip><legs>Futhark Trousers +3</legs></equip>
+        </if>
+        <equip set="Precast" />
+</premagic>
+   
+<midmagic>                              
+    <if ad_name="phalanx">
+        <equip set="MidcastPhalanx" />
+    </if>
+    <elseif ad_name="temper">
+        <equip set="MidCastTemper"/>
+    </elseif>
+    <elseif ad_name="foil|stun|flash">
+        <equip set="enmity"/>
+    </elseif>
+    <elseif ad_skill="enhancingmagic">
+        <equip set="MidcastEnhancing"/>
+    </elseif>
+    <else>
+        <equip set="Midcast" />
+    </else>
+</midmagic>
+   
+<idlegear>
+        <!-- Startup Things -->
+        <if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <addtochat color="8">Starting up RUN</addtochat>
+            <command delay="1000">/macro book 3</command>
+            <command delay="1500">/macro set 1</command>  
+            <command delay="2000">/lockstyleset 98</command>           
+            <command delay="2500">/addon load equipviewer</command>
+            <command delay="3000">/bind ^k /ac set warp</command>
+        </if>
+       
+        <!-- Engaged Sets -->
+        <if p_status="engaged">
+            <if advanced="$dd=On">
+                <equip set="TP" />
+            </if>
+            <elseif advanced="$HDT=On">
+                <equip set="hdt" />
+            </elseif>
+            <elseif advanced="$MDT=On">
+                <equip set="mdt" />
+            </elseif>
+            <else>
+                <equip set="DT"/>
+            </else>         
+         </if>
+
+         <!-- Idle Sets -->
+          <elseif p_status="idle">
+            <if advanced="$DT=On">
+                <equip set="DT" />
+            </if>
+            <elseif advanced="$hdt=On">
+                <equip set="hdt" />
+            </elseif>
+            <elseif advanced="$MDT=On">
+                <equip set="mdt" />
+            </elseif>
+            <else>
+                <equip set="idle" />
+            </else>
+          </elseif>
+         
+        <!-- Equip Locks -->
+        <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+             <rring>Dim. Ring (Dem)</rring>          
+         </equip>
+        </if>
+       
+        <if eq_lring="Dim. Ring (Dem)">
+         <equip lock="true">
+             <lring>Dim. Ring (Dem)</lring>          
+         </equip>
+        </if> 
+       
+        <if eq_lring="Warp Ring">
+          <equip lock="true">
+             <lring>Warp Ring</lring>              
+          </equip>
+        </if>
+
+        <if eq_lring="Sheltered Ring">
+          <equip lock="true">
+             <lring>Sheltered Ring</lring>
+          </equip>
+        </if>
+
+        <if eq_lear="Brachyura Earring">
+          <equip lock="True">
+             <lear>Brachyura Earring</lear>
+          </equip>
+        </if>
+
+</idlegear>
+   
+<weaponskill>
+    <if ad_name="Dimidiation"><equip set="Dimidiation"/></if>
+    <elseif ad_name="Resolution"><equip set="Resolution"/></elseif>
+    <elseif ad_name="Savage Blade"><equip set="SavageBlade"/></elseif>
+    <elseif ad_name="magic wses"><equip set="MagicWS"/></elseif>
+    <else><equip set="genericWS"/></else>
+
+</weaponskill>
+   
+</ashitacast>

@@ -1,0 +1,534 @@
+<ashitacast>
+    <settings> <!--Contains settings specific to this xml, must be set to true/false to override default-->
+        <buffupdate>true</buffupdate> <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+        <statusupdate>true</statusupdate> <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+        <hpupdate>false</hpupdate> <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+        <autoupdate>true</autoupdate> <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+ 
+    </settings>
+ 
+    <sets>
+        <set name="Idle">
+            <ammo>Sancus Sachet +1</ammo>
+            <head>Beckoner's Horn +1</head>
+			<!--<neck augment="O3728795762688213">Smn. Collar +2</neck>-->
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Udug Jacket</body>
+            <hands augment="D8194906003585">Apogee Mitts +1</hands>
+            <hands>Convo. Bracers +3</hands>
+            <lring>Stikini Ring +1</lring>
+            <rring>Stikini Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Regal Belt</waist>
+            <legs augment="D3951595623304">Apogee slacks +1</legs>
+            <feet>Herald's Gaiters</feet>
+        </set>
+        <set name="DT">
+            <ammo>Sancus Sachet +1</ammo>
+            <head augment="D8195208648834">Apogee Crown +1</head>
+			<!--<neck augment="O3728795762688213">Smn.Collar +2</neck>-->
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Con. Doublet +3</body>
+            <hands augment="D8194906003585">Apogee Mitts +1</hands>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Lucidity Sash</waist>
+            <legs augment="D3951595623304">Apogee slacks +1</legs>
+            <feet>Herald's Gaiters</feet>
+        </set> 
+        <!-- Perpetuation Sets -->
+        <set name="Perpetuation">
+            <neck>Smn. Collar +2</neck>
+
+            <head>Beckoner's Horn +1</head>
+            <ammo>Sancus Sachet +1</ammo>
+            <lear>Lugalbanda Earring</lear>
+            <rear>Enmerkar earring</rear>
+            <body>Apo. Dalmatica +1</body>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Lucidity Sash</waist>
+            <legs>Assid. Pants +1</legs>
+            <feet>Convo. Pigaches +3</feet>
+            <hands>Convo. Bracers +3</hands>
+        </set>
+        <set name="Spirit">
+            <ammo>Sancus Sachet +1</ammo>
+            <head augment="D8195208648834">Apogee Crown +1</head>
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Con. Doublet +3</body>
+            <hands augment="D8194906003585">Apogee Mitts +1</hands>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Incarnation Sash</waist>
+            <legs augment="D3951595623304">Apogee slacks +1</legs>
+            <feet augment="D8195132444420">Apogee Pumps +1</feet>
+        </set>         
+        <!-- Precast -->
+        <set name="FastCast">
+            <!--<main>Oranyan</main>-->
+            <ammo>Impatiens</ammo>
+            <head augment="S89465850512768325">Merlinic Hood</head>
+            <lear>Etiolation Earring</lear>
+            <rear>Loquac. Earring</rear>
+            <body>Baayami robe +1</body>
+            <hands>Telchine Gloves</hands>
+            <lring>Prolix Ring</lring><!--Lebeche Ring-->
+            <rring>Kishar Ring</rring>
+            <back augment="S018572">Campestres's Cape</back>
+            <waist>Channeler's Stone</waist>
+            <legs augment="S1619339780">Lengo Pants</legs>
+            <feet augment="S79315841335429">Merlinic Crackows</feet>
+        </set>
+        <set name="BP-Delay">
+            <neck>caller's pendant</neck>
+            <head>Beckoner's Horn +1</head>
+            <head>Baayami Hat +1</head>
+            <hands>Baayami cuffs +1</hands>
+            <rear>Evans Earring</rear>
+            <body>Con. Doublet +3</body>
+            <waist>Lucidity Sash</waist>
+            <legs>Baayami Slops +1</legs>
+            <feet>Baaya. Sabots +1</feet>
+            <rring>Stikini Ring +1</rring>
+            <lring>Stikini Ring +1</lring>
+
+        </set>
+        <set name="smnskill">
+            <neck>caller's pendant</neck>
+            <head>Baayami Hat +1</head>
+            <hands>Baayami cuffs +1</hands>
+            <rear>Evans Earring</rear>
+            <body>Baayami Robe +1</body>
+            <body>Con. Doublet +3</body>
+            <waist>Lucidity Sash</waist>
+            <legs>Baayami Slops +1</legs>
+            <feet>Baaya. Sabots +1</feet>
+            <rring>Stikini Ring +1</rring>
+            <lring>Stikini Ring +1</lring>
+
+        </set>
+        <set name="Healing">
+        <!-- Midcast -->
+            <head>Vanya Hood</head>
+            <lear>Roundel Earring</lear>
+            <rear>Mendi. Earring</rear>
+            <body>Witching Robe</body>
+            <hands>Telchine Gloves</hands>
+            <!--<lring>Lebeche Ring</lring>-->
+            <!--<rring>Haoma's Ring</rring>-->
+            <back>Tempered Cape +1</back>
+            <waist>Witful Belt</waist>
+            <legs>Assid. Pants +1</legs>
+            <!--<feet>Vanya Clogs</feet>-->
+        </set>
+        <set name="Enfeeble">
+            <head>Befouled Crown</head>
+            <lear>Gwati Earring</lear>
+            <rear>Digni. Earring</rear>
+            <body>Vanya Robe</body>
+            <hands>Inyan. Dastanas +2</hands>
+            <lring>Stikini Ring +1</lring>
+            <rring>Sangoma Ring</rring>
+            <back>Aurist's Cape +1</back>
+            <waist>Luminary Sash</waist>
+            <legs>Inyanga Shalwar +2</legs>
+            <feet>Skaoi Boots</feet>
+        </set>
+        <set name="Enhancing">
+            <head>Befouled Crown</head><!--<head>Telchine Cap</head> add enhance magic duration to entire telchine set-->
+            <lear>Augmenting Earring</lear>
+            <rear>Andoaa Earring</rear>
+            <body>Telchine Chas.</body>
+            <hands>Telchine Gloves</hands>
+            <lring>Stikini Ring +1</lring>
+            <rring>Stikini Ring +1</rring>
+            <back>Merciful Cape</back>
+            <waist>Olympus Sash</waist>
+            <legs>Telchine Braconi</legs>
+            <feet>Telchine Pigaches</feet>
+        </set>
+        <set name="Stoneskin">
+            <rear>Earthcry Earring</rear>
+            <waist>Siegel Sash</waist>
+        </set>
+        <set name="Elemental">
+            <head>Inyanga Tiara +2</head>
+            <lear>Hecate's Earring</lear>
+            <rear>Friomisi Earring</rear>
+            <body>Witching Robe</body>
+            <hands>Inyan. Dastanas +2</hands>
+            <lring>Acumen Ring</lring>
+            <!--<rring>Strendu Ring</rring>-->
+            <back>Toro Cape</back>
+            <waist>Eschan Stone</waist>
+            <!--<legs>Lengo Pants</legs>-->
+            <!--<feet>Merlinic Crackows</feet>-->
+        </set>
+        <set name="Cursna">
+            <lear>Healing Earring</lear>
+            <rear>Beatific Earring</rear>
+            <lring>Haoma's Ring</lring>
+            <rring>Haoma's Ring</rring>
+            <back>Tempered Cape +1</back>
+            <waist>Bishop's Sash</waist>
+        </set>
+        <!-- Midcast-Pets -->
+        <set name="Siphon">
+			<!--<main>Nirvana</main>-->			
+			<!--<neck>Caller's Pendant</neck>-->
+            <ammo>Sancus Sachet +1</ammo>
+            <head>Beckoner's Horn +1</head>
+            <lear>Gifted Earring</lear>
+            <rear>Evans Earring</rear>
+            <body>Baayami Robe +1</body>
+            <hands>Lamassu Mitts +1</hands>
+            <lring>Stikini ring +1</lring>
+            <rring>Stikini ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Lucidity Sash</waist>
+            <legs>Baayami Slops +1</legs>
+            <feet augment="D8195132444420">Apogee Pumps +1</feet>
+        </set>
+        <set name="BP-Perfect Defense">   
+			<!--<main augment="O3728795893760180">Draumstafir</main>-->
+		
+            <head>Con. Horn +1</head><!--Beckoner's Horn +1-->
+            <lear>Smn. Earring</lear>
+            <rear>Andoaa Earring</rear>
+            <body>Beck. Doublet +1</body>
+            <hands>Lamassu Mitts +1</hands>
+            <lring>Stikini Ring +1</lring>
+            <rring>Evoker's Ring</rring>
+            <back>Conveyance Cape</back>
+            <waist>Lucidity Sash</waist><!--<waist>Kobo Obi</waist> -->
+            <legs>Beck. Spats +1</legs>
+            <feet>Apogee Pumps +1</feet>
+        </set>
+        <set name="BP-Physical">
+			<head augment="S45565853030506">Helios Band</head>
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Con. Doublet +3</body>
+            <hands>Convo. Bracers +3</hands>
+            <hands>Apogee Mitts +1</hands>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Incarnation Sash</waist>
+            <legs augment="D3951595623304">Apogee Slacks +1</legs>
+			<feet>Convo. Pigaches +3</feet>
+        </set>
+        <set name="BP-Hybrid" baseset="BP-Physical">
+			<waist>Regal Belt</waist>
+            <head>apogee crown +1</head>
+            <feet>apogee pumps +1</feet>
+            <hands augment="S1232189541">Merlinic Dastanas</hands>
+            
+        </set>
+        <set name="BP-Magical">
+            <ammo>Sancus Sachet +1</ammo>
+            <head augment="D8195208648834">Apogee Crown +1</head>
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Con. Doublet +3</body>
+            <body>Apo. Dalmatica +1</body>
+            <hands augment="S1232189541">Merlinic Dastanas</hands>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79594333968509">Campestres's Cape</back>
+            <waist>Regal Belt</waist>
+            <legs>Enticer's Pants</legs>
+            <feet>apogee pumps +1</feet>
+        </set>
+        <set name="BP-Enfeebling">
+			<!--<main augment="O3728795893760180">Draumstafir</main>-->
+
+            <ammo>Sancus Sachet +1</ammo>
+            <head augment="D8195208648834">Apogee Crown +1</head>
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Con. Doublet +3</body>
+            <hands>Convo. Bracers +3</hands>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Incarnation Sash</waist>
+            <legs augment="D3951595623304">Apogee slacks +1</legs>
+            <feet augment="D8195132444420">Apogee Pumps +1</feet>
+        </set>
+        <set name="BP-Enhancing">
+			<!--<main>Nirvana</main>-->		
+			<!--<neck>Caller's Pendant</neck>-->
+            <lear>Gifted Earring</lear>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <neck>caller's pendant</neck>
+            <head>Baayami Hat +1</head>
+            <hands>Baayami cuffs +1</hands>
+            <rear>Evans Earring</rear>
+            <body>Baayami Robe +1</body>
+            <waist>Lucidity Sash</waist>
+            <legs>Baayami Slops +1</legs>
+            <feet>Baaya. Sabots +1</feet>
+            <rring>Stikini Ring +1</rring>
+            <lring>Stikini Ring +1</lring>
+
+        </set>     
+        <set name="BP-Healing">
+			<!--<main augment="O3728795893760180">Draumstafir</main>-->
+            <ammo>Sancus Sachet +1</ammo>
+            <head augment="D8195208648834">Apogee Crown +1</head>
+            <lear>Lugalbanda Earring</lear>
+            <rear>Gelos Earring</rear>
+            <body>Con. Doublet +3</body>
+            <hands augment="D8194906003585">Apogee Mitts +1</hands>
+            <lring>Varar Ring +1</lring>
+            <rring>Varar Ring +1</rring>
+            <back augment="S79579709544572544229487">Campestres's Cape</back>
+            <waist>Incarnation Sash</waist>
+            <legs augment="D3951595623304">Apogee slacks +1</legs>
+            <feet augment="D8195132444420">Apogee Pumps +1</feet>
+        </set>
+        <!--  Weaponskills -->
+        <set name="Garland of Bliss">
+            <head>Inyanga Tiara +2</head>
+            <lear>Hecate's Earring</lear><!--Crematio Earring-->
+            <rear>Friomisi Earring</rear>
+            <body>Witching Robe</body>
+            <hands>Inyan. Dastanas +2</hands>
+            <lring>Acumen Ring</lring>
+            <!--<rring>Fenrir Ring +1</rring>-->
+            <back augment="S7958400451186818542" >Campestres's Cape</back> <!--Toro Cape?-->
+            <waist>Fotia Stone</waist>
+            <legs>Inyanga Shalwar +2</legs>
+            <feet>Inyan. Crackows +1</feet>
+        </set> 
+        <set name="Shattersoul">
+        </set>
+        <!--  Job Abilities -->       
+        <set name="Mana Cede">
+            <hands>Beckoner's Bracers</hands>
+        </set>
+        <set name="Astral Flow">
+            <head>Glyphic Horn</head>
+        </set>
+        <include>
+        </include>
+    </sets>
+   
+    <variables>
+        <var name="init">0</var>
+		<var name="bpp">Off</var>
+    </variables>
+ 
+    <inputcommands>
+        <cmd input="/Warp">
+            <equip><lring>Warp Ring</lring></equip>
+            <equip><rring>Dim. Ring (Dem)</rring></equip>
+        </cmd>
+        <cmd input="/CP">
+            <equip><back>Aptitude mantle</back></equip>
+        </cmd>
+            <cmd input="/clear">
+            <equip set="DT"/>
+        </cmd>
+    </inputcommands>
+ 
+    <idlegear>
+         <if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <addtochat color="8">Starting up SMN</addtochat>
+            <command delay="1000">/macro book 2</command>
+            <command delay="2000">/macro set 1</command>  
+            <command delay="3000">/lockstyleset 98</command>           
+        </if>
+        <if pet_active="False"><equip set="Idle" /></if>
+        <if pet_active="True"><equip set="Perpetuation" /></if>
+        <if pet_name="*Spirit"><equip set="Spirit" /></if>
+
+        <if eq_rring="Warp Ring">
+            <equip lock="true">
+                <rring>Warp Ring</rring>               
+            </equip>
+        </if>
+        <elseif eq_lring="Warp Ring">
+            <equip lock="true">
+                <lring>Warp Ring</lring>               
+            </equip>
+        </elseif>
+        <if eq_rring="Dim. Ring*">
+            <equip lock="true">
+                <rring>Dim. Ring (Dem)</rring>             
+            </equip>
+        </if>
+        <elseif eq_lring="Dim. Ring*">
+            <equip lock="true">
+                <lring>Dim. Ring (Dem)</lring>             
+            </equip>
+        </elseif>
+    </idlegear>
+   
+    <premagic>
+        <equip set="FastCast" />
+    </premagic>
+ 
+    <midmagic>
+        <if ad_name="*Siphon">
+                <equip set="smnskill" />
+        </if>
+        <elseif ad_skill="healingmagic">
+                <equip set="Healing" />
+        </elseif>
+        <elseif ad_name="Cursna"&t_type="Self">
+                <equip set="FastCast" />
+                <equip set="Cursna" />
+        </elseif>
+        <elseif ad_skill="enfeeblingmagic"><equip set="enfeeblingmagic" /></elseif>
+        <elseif ad_skill="elementalmagic"><equip set="Elemental" /></elseif>
+        <elseif ad_skill="enhancingmagic">
+                <equip set="Enhancing" />
+        </elseif>
+        <elseif ad_name="Stoneskin">
+            <equip set="Enhancing" />
+            <equip set="Stoneskin" />
+        </elseif>
+        <elseif ad_name="Refresh">
+            <equip set="Enhancing" />
+            <equip><waist>Gishdubar Sash</waist></equip>
+        </elseif>
+    </midmagic>
+   
+    <petskill>
+        <if ad_name="
+                |Shining Ruby|Glittering Ruby|
+                |Crimson Howl|Inferno Howl|
+                |Frost Armor|Crystal Blessing|
+                |Aerial Armor|Hastega II|Fleet Wind|Hastega|
+                |Earthen Ward|Earthen Armor|
+                |Rolling Thunder|Lightning Armor|
+                |Soothing Current|
+                |Ecliptic Growl|Ecliptic Howl|Heavenward Howl|
+                |Noctoshield|Dream Shroud|
+                |Altana's Favor|Reraise*|Raise*|Wind's Blessing">
+                <equip set="BP-Enhancing"/>
+				<addtochat color="10">BP Enhancing</addtochat>
+			</if>
+            <elseif ad_name="Impact|Alexander|Atomos|Odin">
+                <equip set="BP-Perfect Defense" />
+            </elseif>
+            <elseif ad_name="
+                |Diamond Storm|Sleepga|
+                |Shock Squall|
+                |Slowga|Tidal Roar|
+                |Pavor Nocturnus|Ultimate Terror|Nightmare|
+                |Mewing Lullaby|Eerie Eye">
+                <equip set="BP-Enfeebling" />
+				<addtochat color="10">BP Enfeebling</addtochat>
+            </elseif>
+            <elseif ad_name="Healing Ruby*|Whispering Wind|Spring Water">
+                <equip set="BP-Healing" />
+				<addtochat color="10">BP Healing</addtochat>
+            </elseif>
+            <elseif ad_name="
+                |Poison Nails|
+                |Double Punch|Punch|
+                |Axe Kick|Rush|Slap|
+                |Claw|Predator Claws|
+                |Rock Buster|Mountain Buster|Rock Throw|Crag Throw|Megalith Throw|
+                |Chaotic Strike|Volt Strike|
+                |Tail Whip|Spinning Dive|Barracuda Dive|
+                |Crescent Fang|Eclipse Bite|Moonlit Charge|
+                |Blindside|Camisado|
+                |Regal Scratch|Regal Gash">
+				<addtochat color="10">BP Physical</addtochat>
+				<equip set="BP-Physical" />
+            </elseif>
+            <elseif ad_name="Burning Strike|Flaming Crush">
+				<addtochat color="10">BP Hybrid</addtochat>
+                <equip set="BP-Hybrid" />
+            </elseif>
+            <elseif ad_name="
+                |Searing Light|Meteorite|Holy Mist|
+                |Inferno|Fire II|Fire IV|Meteor Strike|Conflag Strike|
+                |Diamond Dust|Blizzard II|Blizzard IV|Heavenly Strike|
+                |Aerial Blast|Aero II|Aero IV|Wind Blade|
+                |Earthen Fury|Stone II|Stone IV|Geocrush|
+                |Judgement Bolt|Thunder II|Thunder IV|Thunderstorm|Thunderspark|
+                |Tidal Wave|Water II|Water IV|Grand Fall|
+                |Howling Moon|Lunar Bay|
+                |Ruinous Omen|Somnolence|Nether Blast|Night Terror|
+                |Level ? Holy">
+				<addtochat color="10">BP Magical</addtochat>
+                <equip set="BP-Magical" />
+            </elseif>
+            <elseif ad_name="Hysteric*">
+                <addtochat color="10">Hysteric Nolegs</addtochat>
+                <equip set="BP-Physical"/>
+            </elseif>
+
+    </petskill>
+   
+    <jobability>
+        <if ad_name="
+                |Shining Ruby|Glittering Ruby|
+                |Crimson Howl|Inferno Howl|
+                |Frost Armor|Crystal Blessing|
+                |Aerial Armor|Hastega II|Fleet Wind|Hastega|
+                |Earthen Ward|Earthen Armor|
+                |Rolling Thunder|Lightning Armor|
+                |Soothing Current|
+                |Ecliptic Growl|Ecliptic Howl|Heavenward Howl|
+                |Noctoshield|Dream Shroud|
+                |Altana's Favor|Reraise*|Raise*|
+               
+                |Diamond Storm|Sleepga|
+                |Shock Squall|
+                |Slowga|Tidal Roar|
+                |Pavor Nocturnus|Ultimate Terror|Nightmare|
+                |Mewing Lullaby|Eerie Eye|
+               
+                |Healing Ruby*|Whispering Wind|Spring Water|
+               
+                |Poison Nails|
+                |Double Punch|Punch|
+                |Axe Kick|Rush|Slap|
+                |Claw|Predator Claws|
+                |Rock Buster|Mountain Buster|Rock Throw|Crag Throw|Megalith Throw|
+                |Chaotic Strike|Volt Strike|
+                |Tail Whip|Spinning Dive|Barracuda Dive|
+                |Crescent Fang|Eclipse Bite|Moonlit Charge|
+                |Blindside|Camisado|
+                |Regal Scratch|Regal Gash|
+               
+                |Burning Strike|Flaming Crush|
+                |Searing Light|Meteorite|Holy Mist|
+                |Inferno|Fire II|Fire IV|Meteor Strike|Conflag Strike|
+                |Diamond Dust|Blizzard II|Blizzard IV|Heavenly Strike|
+                |Aerial Blast|Aero II|Aero IV|Wind Blade|
+                |Earthen Fury|Stone II|Stone IV|Geocrush|
+                |Judgement Bolt|Thunder II|Thunder IV|Thunderstorm|Thunderspark|
+                |Tidal Wave|Water II|Water IV|Grand Fall|
+                |Howling Moon|Lunar Bay|
+                |Ruinous Omen|Somnolence|Nether Blast|Night Terror|
+                |Level ? Holy|Wind's Blessing">
+            <equip set="BP-Delay" />
+			<addtochat color="10">BP Precast</addtochat>
+        </if>
+        <elseif ad_name="Mana Cede"><equip set="Mana Cede" /></elseif>
+        <elseif ad_name="Astral Flow"><equip set="Astral Flow" /></elseif>
+        <elseif ad_name="Avatar's Favor"><equip set="smnskill"/></elseif>
+    </jobability>
+   
+    <weaponskill>
+        <if ad_name="Garland of Bliss"><equip set="Garland of Bliss" /></if>
+        <elseif ad_name="Shattersoul"><equip set="Shattersoul" /></elseif>
+        <elseif ad_name="Cataclysm"><equip set="Elemental" /></elseif>
+    </weaponskill> 
+   
+</ashitacast>

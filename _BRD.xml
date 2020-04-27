@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+   <settings>
+      <!--Contains settings specific to this xml, must be set to true/false to override default-->
+      <buffupdate>true</buffupdate>
+      <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+      <statusupdate>true</statusupdate>
+      <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+      <hpupdate>false</hpupdate>
+      <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+      <autoupdate>true</autoupdate>
+      <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+   </settings>
+   <sets>
+      <set name="Troubadour">
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+      </set>
+      <set name="Nightingale">
+         <feet>Bihu slippers +3</feet>
+      </set>
+      <set name="Soul Voice">
+         <legs>Bihu Cannions +3</legs>
+      </set>
+      <set name="idle">
+         <!-- <main>barfawc</main> -->
+         <head>Inyanga Tiara +2</head>
+         <neck>Loricate Torque +1</neck>
+         <lear>Hearty Earring</lear>
+         <rear>Dominance Earring</rear>
+         <!-- <body>Bihu Jstcorps. +3</body> -->
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <hands>Mousai Gages +1</hands>
+         <lring>Defending Ring</lring>
+         <rring>Stikini Ring +1</rring>
+         <waist>Flume Belt</waist>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Bihu Slippers +3</feet>        
+      </set>
+      <set name="DT">
+         
+         <head>Inyanga Tiara +2</head>
+         <head>Bihu Roundlet +3</head>
+         <neck>Loricate Torque +1</neck>
+         <lear>Hearty Earring</lear>
+         <rear>Dominance Earring</rear>
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+         <body>Ashera Harness</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <hands>Mousai Gages +1</hands>
+
+         <lring>Defending Ring</lring>
+         <rring>Stikini Ring +1</rring>
+         <waist>Flume Belt</waist>
+         <legs>Brioso Cannions +3</legs>
+         <feet>Bihu Slippers +3</feet>        
+      </set>
+      <set name="Move" baseset="DT">
+      </set>
+      <set name="TP">
+         <range augment="S19112882231319">Linos</range>
+
+         <head augment="S103165187196304618308">Chironic Hat</head>
+         <head>Aya. Zucchetto +2</head>
+
+        
+         <neck>Bard's Charm +2</neck>
+         <lear>Telos Earring</lear>
+         <rear>Suppanomimi</rear>
+         <body>Ayanmo Corazza +2</body>
+         <body>Ashera Harness</body>
+         <hands>Aya. Manopolas +2</hands>
+         <hands augment="S103165186727141078356036">Chironic Gloves</hands>
+
+         <lring>Chirich Ring +1</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Reiki Yotai</waist>
+         <waist>Sailfi Belt +1</waist>
+         <legs>Aya. Cosciales +2</legs>
+         <feet>Aya. Gambieras +2</feet>
+         <back augment="S79266176080385612583566">Intarabus's Cape</back> <!-- TP BACK -->
+      </set>
+      <set name="healing">
+         <head>Vanya Hood</head>
+         <body>Chironic Doublet</body>
+         <hands>Bokwus Gloves</hands>
+         <legs>Vanya Slops</legs>
+         <feet>Vanya Clogs</feet>
+      </set>
+      <set name="Precast">
+         <head>Vanya Hood</head>
+         <body>Inyanga Jubbah +2</body>
+         <hands>Gende. Gages +1</hands>
+         <legs>Aya. Cosciales +2</legs>
+         <feet>Navon Crackows</feet>
+         <feet augment="S621761010812991078358084">Chironic Slippers</feet>
+         <neck>Mnbw. Whistle +1</neck>
+         <waist>Channeler's Stone</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Enchntr. Earring +1</ear2>
+         <ring1>Renaye Ring</ring1>
+         <ring2>Kishar Ring</ring2>
+         <back augment="S018572">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+      <set name="PrecastMusic">
+         <!-- <main>barfawc</main>-->
+         <head>Fili Calot +1</head>
+         <body>Brioso Justau. +3</body>
+         <hands>Gende. Gages +1</hands>
+         <legs>Querkening Brais</legs>
+         <feet>Bihu slippers +3</feet>
+         <neck>Voltsurge Torque</neck>
+         <waist>Channeler's Stone</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Enchntr. Earring +1</ear2>
+         <ring1>Prolix Ring</ring1>
+         <ring2>Kishar Ring</ring2>
+         <back augment="S018572">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+      <set name="music">
+         <main>Carnwenhan</main>
+         <head>Fili Calot +1</head>
+         <body>Fili Hongreline +1</body>
+         <hands>Fili Manchettes +1</hands>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Brioso slippers +3</feet>
+         <neck>Mnbw. Whistle +1</neck>
+         <waist>Harfner's Sash</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Musical Earring</ear2>
+         <ring1>Renaye Ring</ring1>
+         <ring2>Kishar Ring</ring2>
+         <back augment="S79317716474374545867916">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+      <set name="ballad" baseset="music">
+         <legs>Fili Rhingrave +1</legs>
+      </set>	
+
+      <set name="sleepyset">
+         <main>Carnwenhan</main>
+         <neck>Mnbw. Whistle +1</neck>
+         <body>Fili Hongreline +1</body>
+         <hands>Brioso Cuffs +3</hands>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Brioso Slippers +3</feet>
+         <head>Bihu Roundlet +3</head>
+         <waist>Luminary Sash</waist>
+         <lring>Stikini Ring +1</lring>
+         <rring>Stikini Ring +1</rring>
+         <lear>Digni. Earring</lear>
+         <rear>Regal Earring</rear>
+         <back augment="S79317716474374545867916">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+      
+      <set name="songMACC" baseset="Precast">
+         <main>Carnwenhan</main>
+
+         <body>Bihu Jstcorps. +3</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Brioso Slippers +3</feet>
+         <head>Inyanga Tiara +2</head>
+         <lring>Stikini Ring +1</lring>
+         <rring>Stikini Ring +1</rring>
+         <lear>Digni. Earring</lear>
+         <rear>Hermetic Earring</rear>
+         <back augment="S79317716474374545867916">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+
+      <set name="Threnody" baseset="songMACC">
+         <main>Carnwenhan</main>
+
+         <range>Gjallarhorn</range>
+         <body>Bihu Jstcorps. +3</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Brioso Slippers +3</feet>
+         <head>Inyanga Tiara +2</head>
+         <lring>Stikini Ring +1</lring>
+         <rring>Stikini Ring +1</rring>
+         <lear>Digni. Earring</lear>
+         <rear>Hermetic Earring</rear>
+         <back augment="S79317716474374545867916">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+
+      <set name="dispelset" baseset="Precast">
+         <main>Carnwenhan</main>
+
+         <head>Inyanga Tiara +2</head>
+         <neck>Mnbw. Whistle +1</neck>
+         <ear1>Digni. Earring</ear1>
+         <ear2>Hermetic Earring</ear2>
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <waist>Luminary Sash</waist>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Aya. Gambieras +2</feet>
+         <lring>Stikini Ring +1</lring>
+         <rring>Stikini Ring +1</rring>
+      </set>
+      <set name="WS">
+         <head augment="D2723139293964">Lustratio Cap +1</head>
+         <neck>Bard's Charm +2</neck>
+         <lear>Telos Earring</lear>
+         <rear>Ishvara Earring</rear>
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+         <hands augment="D2723139293964">Lustr. Mittens +1</hands>
+         <lring>Ramuh ring +1</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Chiner's Belt +1</waist>
+         <legs augment="D2723139293964">Lustr. Subligar +1</legs>
+         <legs>Jokushu Haidate</legs>
+         <feet augment="D2723139293964">Lustra. Leggings +1</feet>
+         <range>Linos</range>
+         <back augment="S8137071005542518759">Intarabus's Cape</back> <!-- WSD Back -->
+      </set>
+      <set name="Mordant">
+         <head>Bihu Roundlet +3</head>
+         <neck>Bard's Charm +2</neck>
+         <lear>Regal Earring</lear>
+         <rear>Ishvara Earring</rear>
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+         <hands>Aya. Manopolas +3</hands>
+         <hands>Brioso Cuffs +3</hands>
+         <lring>Shukuyu Ring</lring>
+         <rring>Ilabrat Ring</rring>
+         <waist>Grunfeld Rope</waist>
+         <legs>Bihu Cannions +3</legs>
+         <feet>Bihu slippers +3</feet>
+
+         <feet>Chironic Slippers</feet>
+         <range>Linos</range>
+         <back augment="S8137071005542518759">Intarabus's Cape</back> <!-- WSD Back -->
+      </set>
+      <set name="Waltz">
+         <neck>Bard's Charm +2</neck>
+         <head>Inyanga Tiara +2</head>
+         <body augment="M1383">Bihu Jstcorps. +3</body>
+         <hands>Inyan. Dastanas +2</hands>
+         <legs>Inyanga Shalwar +2</legs>
+         <feet>Brioso Slippers +3</feet>
+         <waist>Flume Belt</waist>
+         <ear1>Enchntr. Earring</ear1>
+         <ear2>Handler's Earring</ear2>
+         <ring2>Defending Ring</ring2>
+         <back augment="S79317716474374545867916">Intarabus's Cape</back> <!-- SONG MACC Back -->
+      </set>
+
+   </sets>
+   <variables>
+      <var name="init">0</var>
+      <var name="DT">Off</var>
+      <var name="kite">Off</var>
+      <var name="ACC">Off</var>
+      <var name="cp">off</var>
+   </variables>
+   <inputcommands>
+      <cmd input="/ccp">
+         <if advanced="$cp=Off">
+            <setvar name="cp" value="On" />
+            <addtochat color="8">CurePlease Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="cp" value="Off" />
+            <addtochat color="8">CurePlease Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>            
+         </cmd>
+
+      <cmd input="/warp">
+         <equip>
+            <lring>Warp Ring</lring>
+         </equip>
+         <equip>
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </cmd>
+      <cmd input="/DT">
+         <if advanced="$DT=Off">
+            <setvar name="DT" value="On" />
+            <addtochat color="8">DT Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="DT" value="Off" />
+            <addtochat color="8">DT Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/kite">
+         <if advanced="$kite=Off">
+            <setvar name="kite" value="On" />
+            <addtochat color="8">Kite Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="kite" value="Off" />
+            <addtochat color="8">Kite Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/acc">
+         <if advanced="$acc=Off">
+            <setvar name="ACC" value="On" />
+            <addtochat color="8">ACC Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="ACC" value="Off" />
+            <addtochat color="8">ACC Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+              <cmd input="/clear">
+            <equip set="DT"/>
+        </cmd>
+   </inputcommands>
+   <jobability>
+      <if ad_name="Troubadour"><equip set="Troubadour" /></if>
+      <elseif ad_name="Nightingale"><equip set="Nightingale" /></elseif>
+      <elseif ad_name="Soul Voice"><equip set="Soul Voice"/></elseif>
+      <if ad_name="Curing Waltz|Curing Waltz II|Curing Waltz III|Curing Waltz IV|Curing Waltz V|Divine Waltz"><equip set="Waltz" /></if>
+   </jobability>
+   <premagic>
+      
+
+      <!-- Song stuff -->
+      <if ad_type ="bardsong">
+         <if p_status="engaged"><!--<equip><main>barfawc</main></equip></if>--></if>
+         <!-- Offsenive Songs -->
+         <if ad_name="* Threnody|*Threnody II|*Lullaby|*Lullaby II">
+            <!-- MACC Songs Enemy -->
+            <elseif ad_name="* Threnody|*Threnody II"><equip><range>Gjallarhorn</range></equip></elseif>
+
+            <!-- Duration Songs Enemy -->
+            <!-- <elseif ad_name="*Lullaby|*Lullaby II"><equip><range>Daurdabla</range></equip></elseif> -->
+         </if>
+
+         <!-- Buffing Songs -->
+         <else>
+            <equip set="PrecastMusic"/>
+            <!--<equip><main>barfawc</main></equip></if>-->
+            <!-- Honor March -->
+            <if ad_name="Honor March"><equip><range>Marsyas</range></equip></if> 
+
+            <!-- Dummy Songs -->
+            <elseif ad_name="Scop's Operetta|Puppet's Operetta|Knight's Minne|Knight's Minne II|Army's Paeon|Army's Paeon II">
+               <equip><range>Daurdabla</range></equip>
+            </elseif> 
+               
+            <!-- for Cure Please -->
+             <elseif ad_name="Valor Minuet V|Blade Madrigal|Mage's Ballad III|Sentinel*">
+               <if advanced="$cp=On">
+                  <addtochat color="8">***Daurdabla is on***</addtochat>         
+                  <equip><range>Daurdabla</range></equip>
+               </if>
+               <else><equip><range>Gjallarhorn</range></equip></else>
+            </elseif>
+
+               <!-- Buff Strength Songs -->
+            <else>
+               <equip><range>Gjallarhorn</range></equip>
+            </else>
+
+         </else>  
+         </if>
+      <!-- Normal Magic -->
+      <else>
+         <equip set="Precast"/>
+      </else>
+
+
+   </premagic>
+   
+
+   <midmagic>
+
+      <if ad_type="bardsong">
+                     <addtochat color="8">Bardsong Midmagic Time</addtochat>
+
+         <!-- Fighting Right Now! -->
+         <if p_status="engaged">
+
+            <if ad_name="Foe Lullaby*|Horde Lullaby*">
+               <addtochat color="8">Sleepy Time new</addtochat>
+               <equip set="sleepyset" />
+               <if buffactive="Nightingale">
+                  <addtochat color="8">--------------------NITRO Detected, equipping Marsyas---------------</addtochat>
+                  <equip><range>Marsyas</range></equip>
+               </if>
+               <else>
+                  <equip><range>Gjallarhorn</range></equip>
+                  <addtochat color="8">--------------------NITRO NOT Detected, equipping Gjallarhorn---------------</addtochat>             
+               </else>
+            </if>
+            <if ad_name="Mage's Ballad*">
+               <addtochat color="8">Ballad Time</addtochat>
+               <equip set="ballad" />
+            </if>
+            <if ad_name="dispel|Magic Finale|silence">
+               <addtochat color="8">Dispel Time</addtochat>
+               <equip set="dispelset" />
+            </if>
+            <if ad_name="*Threnody|*Threnody II"><equip set="Threnody"/></if>
+         </if>
+
+         <!-- Not engaged -->
+         <else>
+            <equip set="music" />
+            <if ad_name="Foe Lullaby*|Horde Lullaby*">
+               <addtochat color="8">Sleepy Time new</addtochat>
+               <equip set="sleepyset" />
+               <if buffactive="Nightingale">
+                  <addtochat color="8">--------------------NITRO Detected, equipping Marsyas---------------</addtochat>
+                  <equip><range>Marsyas</range></equip>
+               </if>
+               <else>
+                  <equip><range>Gjallarhorn</range></equip>
+                  <addtochat color="8">--------------------NITRO NOT Detected, equipping Gjallarhorn---------------</addtochat>             
+               </else>
+            </if>
+            <if ad_name="Mage's Ballad*">
+               <addtochat color="8">Ballad Time unengaged</addtochat>
+               <equip set="ballad" />
+            </if>
+            <if ad_name="dispel|Magic Finale|silence">
+               <addtochat color="8">Dispel Time</addtochat>
+               <equip set="dispelset" />
+            </if>
+            <if ad_name="*Threnody|*Threnody II"><equip set="Threnody"/></if>
+         </else>
+
+         <!-- Song specific single peices -->
+         <if ad_name="*Threnody|*Threnody II"><equip><body>Mou. manteel +1</body></equip></if>
+         <if ad_name="*Carol|*Carol II"><equip><hands>Mousai Gages +1</hands></equip></if>
+         <if ad_name="*Etude"><equip><head>Mousai Turban +1</head></equip></if>
+      </if>
+         <if ad_skill="healingmagic"><addtochat color="8">Healing Magic</addtochat><equip set="healing"></equip></if>
+
+   </midmagic>
+   <idlegear>
+        <if advanced="$init=0">
+            <setvar name="init" value="1" />
+            <addtochat color="8">Starting up BRD</addtochat>
+            <command delay="1000">/macro book 3</command>
+            <command delay="2000">/macro set 1</command>  
+            <command delay="3000">/lockstyleset 98</command>           
+            <command delay="4000">/addon load equipviewer</command>           
+        </if>
+      <if p_status="engaged">
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <elseif>
+            <if advanced="$kite=On">
+               <equip set="Move" />
+            </if>
+            <elseif>
+               <if eq_main="liberator">
+                  <equip set="LibTP" />
+               </if>
+               <else>
+                  <equip set="TP" />
+               </else>
+            </elseif>
+         </elseif>
+      </if>
+      <else>
+         <equip set="Move" />
+      </else>
+      <if p_status="idle">
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <elseif>
+            <if advanced="$kite=On">
+               <equip set="Move" />
+            </if>
+         </elseif>
+         <elseif>
+            <if advanced="$acc=On">
+               <equip set="ACC" />
+            </if>
+         </elseif>
+      </if>
+      <if eq_lring="Capacity Ring">
+         <equip lock="true">
+            <lring>Capacity Ring</lring>
+         </equip>
+      </if>
+      <if eq_lring="Trizek ring">
+         <equip lock="true">
+            <lring>Trizek ring</lring>
+         </equip>
+      </if>
+      <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </if>
+      <if eq_lring="Facility Ring">
+         <equip lock="true">
+            <lring>Facility Ring</lring>
+         </equip>
+      </if>
+      <if eq_lring="Warp Ring">
+         <equip lock="true">
+            <lring>Warp Ring</lring>
+         </equip>
+      </if>
+   </idlegear>
+   <weaponskill>
+      <if ad_name="Mordant Rime">
+         <equip set="mordant" />
+         <addtochat color="4">Mordant Time</addtochat>
+      </if>
+      <else>
+         <equip set="WS" />
+      </else>
+   </weaponskill>
+</ashitacast>
