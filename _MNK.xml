@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ashitacast>
+   <settings>
+      <!--Contains settings specific to this xml, must be set to true/false to override default-->
+      <buffupdate>true</buffupdate>
+      <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
+      <statusupdate>true</statusupdate>
+      <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
+      <hpupdate>false</hpupdate>
+      <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
+      <autoupdate>true</autoupdate>
+      <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
+   </settings>
+   <sets>
+      <set name="dt">
+         <ammo>Coiste Bodhar</ammo>
+         <head>Malignance Chapeau</head>
+         <body>Malignance Tabard</body>
+         <hands>Malignance Gloves</hands>
+         <legs>Malignance Tights</legs>
+         <feet>Malignance Boots</feet>
+         <neck>Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Schere Earring</ear1>
+         <ear2>Telos Earring</ear2>
+         <ring1>Gelatinous Ring +1</ring1>
+         <ring2>Defending Ring</ring2>
+         <back augment="S81366415079936541542543">Segomo's Mantle</back>
+      </set>
+      <set name="vokeset">
+         <ammo>Aurgelmir Orb +1 </ammo>
+         <head>Halitus Helm</head>
+         <body>Emet Harness +1</body>
+         <hands>Kurys Gloves</hands>
+         <legs>Nyame Flanchard</legs>
+         <feet>Nyame Sollerets</feet>
+         <neck>Loricate Torque +1</neck>
+         <waist>Goading Belt</waist>
+         <ear1>Cryptic Earring</ear1>
+         <ear2>Telos Earring</ear2>
+         <ring1>Defending Ring</ring1>
+         <ring2>Supershear Ring</ring2>
+      </set>
+
+      <set name="TPImpUp">
+         <ammo>Coiste Bodhar</ammo>
+         <head>Mpaca's Cap</head>
+         <body>Bhikku Cyclas +1</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3642184695808200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Ilabrat Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S81366415088128541542543">Segomo's Mantle</back>
+      </set>
+      <set name="TPImpDown2">
+         <ammo>Coiste Bodhar</ammo>
+         <head>Mpaca's Cap</head>
+         <body>Mpaca's Doublet</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3642184695808200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Ilabrat Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S81366415088128541542543">Segomo's Mantle</back>
+      </set>
+      <set name="fastcast">
+         <ammo>Aurgelmir Orb +1 </ammo>
+         <head augment="S938963763828468">Herculean Helm</head>
+         <body>Dread Jupon</body>
+         <hands augment="S1061259598500072188">Leyline Gloves</hands>
+         <legs augment="O2456978194432386">Tatena. Haidate +1</legs>
+         <feet>Malignance Boots</feet>
+         <neck>Voltsurge Torque</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Loquac. Earring</ear1>
+         <ear2>Etiolation Earring</ear2>
+         <ring1>Defending Ring</ring1>
+         <ring2 augment="O2302150967296316">Gelatinous Ring +1</ring2>
+         <back augment="S81366415088128541542543">Segomo's Mantle</back>
+      </set>
+		<set name="shijin">
+			<ammo>Coiste Bodhar</ammo>
+			<head>Mpaca's Cap</head>
+			<body >Nyame Mail</body>
+			<hands >Nyame Gauntlets</hands>
+			<legs augment="O2456978194432386">Tatena. Haidate +1</legs>
+			<feet >Nyame Sollerets</feet>
+			<neck augment="O3728794451968200">Mnk. Nodowa +2</neck>
+			<waist>Moonbow belt +1</waist>
+			<ear1 augment="O1409112604672464">Schere Earring</ear1>
+			<ear2 augment="S560011287">Moonshade Earring</ear2>
+			<ring1>Niqmaddu Ring</ring1>
+			<ring2>Gere Ring</ring2>
+			<back augment="S8136641508812818575">Segomo's Mantle</back>
+		</set>
+
+		<set name="Raging">
+         <ammo>Coiste Bodhar</ammo>
+         <head>Mpaca's Cap</head>
+         <body>Mpaca's Doublet</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3642184695808200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Ilabrat Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S81366415088128541542543">Segomo's Mantle</back>
+		</set>
+		<set name="Tornado">
+         <ammo>Coiste Bodhar</ammo>
+         <head>Mpaca's Cap</head>
+         <body>Mpaca's Doublet</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3642184695808200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Ilabrat Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S81366415088128541542543">Segomo's Mantle</back>
+		</set>
+
+      <set name="Dragon">
+         <ammo>Coiste Bodhar</ammo>
+         <head>Mpaca's Cap</head>
+         <body>Mpaca's Doublet</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3642184695808200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1>Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Ilabrat Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S81366415088128541542543">Segomo's Mantle</back>
+      </set>
+		<set name="VictoryImpetus">
+			<body>Bhikku Cyclas +1</body>
+         <ammo>Aurgelmir Orb +1</ammo>
+         <head augment="O842029334528423">Mpaca's Cap</head>
+         <body>Mpaca's Doublet</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3728794451968200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1 augment="O1409112604672464">Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Niqmaddu Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S79266176080385612583567">Segomo's Mantle</back>
+		</set>
+		<set name="Victory">
+         <ammo>Aurgelmir Orb +1</ammo>
+         <head augment="O842029334528423">Mpaca's Cap</head>
+         <body>Mpaca's Doublet</body>
+         <hands>Mpaca's Gloves</hands>
+         <legs>Mpaca's Hose</legs>
+         <feet>Mpaca's Boots</feet>
+         <neck augment="O3728794451968200">Mnk. Nodowa +2</neck>
+         <waist>Moonbow Belt +1</waist>
+         <ear1 augment="O1409112604672464">Schere Earring</ear1>
+         <ear2>Sherida Earring</ear2>
+         <ring1>Niqmaddu Ring</ring1>
+         <ring2>Gere Ring</ring2>
+         <back augment="S79266176080385612583567">Segomo's Mantle</back>
+		</set>
+		<set name="Howling">
+			<ammo augment="O1460453769216459">Coiste Bodhar</ammo>
+			<head augment="O859231748096423">Mpaca's Cap</head>
+			<body augment="O2456978194432392">Tatena. Harama. +1</body>
+			<hands augment="O1529771261952445">Nyame Gauntlets</hands>
+			<legs augment="O1529771261952446">Nyame Flanchard</legs>
+			<feet augment="O1529771261952447">Nyame Sollerets</feet>
+			<neck augment="O3728794451968200">Mnk. Nodowa +2</neck>
+			<waist>Moonbow Belt +1</waist>
+			<ear1 augment="O1409112604672464">Schere Earring</ear1>
+			<ear2>Sherida Earring</ear2>
+			<ring1>Niqmaddu Ring</ring1>
+			<ring2>Gere Ring</ring2>
+			<back augment="S81375005022722612583751">Segomo's Mantle</back>
+		</set>
+		<set name="TpImpDown">
+			<main augment="O257954938880271">Godhands</main>
+			<ammo augment="O1460453769216459">Coiste Bodhar</ammo>
+			<head augment="O859231748096423">Mpaca's Cap</head>
+			<body>Ken. Samue +1</body>
+			<hands>Ken. Tekko +1</hands>
+			<legs augment="O687242739712426">Mpaca's Hose</legs>
+			<feet>Ken. Sune-Ate +1</feet>
+			<neck augment="O3728794451968200">Mnk. Nodowa +2</neck>
+			<waist>Moonbow Belt +1</waist>
+			<ear1 augment="O1409112604672464">Schere Earring</ear1>
+			<ear2>Telos Earring</ear2>
+			<ring1>Chirich Ring +1</ring1>
+			<ring2>Defending Ring</ring2>
+			<back augment="S8136641508812818575">Segomo's Mantle</back>
+		</set>
+   </sets>
+   <variables>
+      <var name="init">0</var>
+      <var name="DT">Off</var>
+      <var name="hdt">Off</var>
+      <var name="kite">Off</var>
+      <var name="MP">Off</var>
+      <var name="tank">off</var>
+   </variables>
+   <inputcommands>
+      <cmd input="/clear">
+         <equip set="DT" />
+         <setvar name="mdt" value="Off" />
+         <setvar name="DT" value="Off" />
+         <setvar name="hdt" value="Off" />
+         <addtochat color="8">------------[Clearing all variables]--------------</addtochat>
+         <command>/ac reload</command>
+      </cmd>
+      <cmd input="/Warp">
+         <equip>
+            <lring>Warp Ring</lring>
+         </equip>
+         <equip>
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </cmd>
+      <cmd input="/DT">
+         <!-- Set a keybind to /DT to toggle easily -->
+         <setvar name="hdt" value="Off" />
+         <if advanced="$DT=Off">
+            <setvar name="DT" value="On" />
+            <addtochat color="8">DT Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="DT" value="Off" />
+            <addtochat color="8">DT Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/hdt">
+         <!-- Set a keybind to /DT to toggle easily -->
+         <setvar name="DT" value="Off" />
+         <if advanced="$hdt=Off">
+            <setvar name="hdt" value="On" />
+            <addtochat color="8">Hyrbid Mode: [Enabled]</addtochat>
+            <doidlegear />
+         </if>
+         <else>
+            <setvar name="hdt" value="Off" />
+            <addtochat color="8">hdt Mode: [Disabled]</addtochat>
+            <doidlegear />
+         </else>
+      </cmd>
+      <cmd input="/clear">
+         <equip set="DT" />
+      </cmd>
+   </inputcommands>
+   <jobability>
+      <if ad_name="Impetus">
+         <equip>
+            <body>Bhikku cyclas +1</body>
+         </equip>
+      </if>
+      <if ad_name="provoke"><equip set="vokeset"/></if>
+      <if ad_name="Chi*"><equip><head>Hes. Crown +3</head></equip></if>
+      <if ad_name="Footwork"><equip><head>Hes. Crown +3</head></equip></if>
+      <if ad_name="Hundred Fists"><equip><legs>Hes. Hose +3</legs></equip></if>
+
+   </jobability>
+   <premagic>
+      <equip set="Fastcast" />
+      <if ad_name="Utsusemi*"><equip><neck>Magoraga Beads</neck><body>Passion Jacket</body></equip></if>
+   </premagic>
+   <midmagic>
+      <equip set="DT" />
+   </midmagic>
+   <idlegear>
+
+      <if advanced="$init=0">
+         <setvar name="init" value="1" />
+         <addtochat color="8">Starting up hihi</addtochat>
+         <command delay="1000">/macro book 1</command>
+         <command delay="2000">/macro set 2</command>
+         <command delay="3000">/lockstyleset 99</command>
+         <command delay="4000">/addon load equipviewer</command>
+         <!--equip viewer 3500 1000-->
+      </if>
+      <if p_status="engaged">
+         <if advanced="$DT=On">
+            <equip set="DT" />
+         </if>
+         <elseif buffactive="Impetus"><equip set="TPImpUp" />
+         </elseif>
+         <else>
+            <equip set="TPImpDown" />
+         </else>
+
+      </if>
+
+      <if p_status="idle">
+            <equip set="DT" />
+      </if>
+
+      <if eq_rring="Dim. Ring (Dem)">
+         <equip lock="true">
+            <rring>Dim. Ring (Dem)</rring>
+         </equip>
+      </if>
+      <if eq_lring="Warp Ring">
+         <equip lock="true">
+            <lring>Warp Ring</lring>
+         </equip>
+      </if>
+
+         <if buffactive="Boost">
+            <addtochat color="8">Boost Detected, Equipping Ask Sash</addtochat>
+            <equip lock="true"><waist>Ask Sash</waist></equip>
+        </if>
+
+   </idlegear>
+   <weaponskill>
+      <if ad_name="Victory Smite">
+         <if buffactive="Impetus">
+            <addtochat color="8">Victory Impetus</addtochat>
+            <equip set="VictoryImpetus" />
+         </if>
+         <else>
+            <equip set="Victory"/>
+         </else>
+      </if>
+      <elseif ad_name="Raging Fists">
+
+            <addtochat color="8">Raging</addtochat>
+         <equip set="Raging" />
+      </elseif>
+      <elseif ad_name="Shijin Spiral">
+            <addtochat color="8">Shijin</addtochat>
+         <equip set="Shijin" />
+      </if>
+      <elseif ad_name="Howling Fist">
+            <addtochat color="8">Howling</addtochat>
+         <equip set="Howling" />
+      </elseif>
+      <elseif ad_name="Tornado Kick">
+            <addtochat color="8">Tornado</addtochat>
+         <equip set="Tornado" />
+         <if buffactive="Footwork|406">
+            <addtochat color="8">Tornado Footwork</addtochat>
+            <equip><feet>Anch. Gaiters +3</feet></equip>
+         </if>
+      </elseif>
+      <elseif ad_name="Dragon Kick">
+            <addtochat color="8">Dragon</addtochat>
+         <equip set="dragon" />
+         <if buffactive="Footwork|406">
+            <addtochat color="8">Dragon Footwork</addtochat>
+            <equip><feet>Anch. Gaiters +3</feet></equip>
+         </if>
+      </elseif>
+
+      
+   </weaponskill>
+</ashitacast>
