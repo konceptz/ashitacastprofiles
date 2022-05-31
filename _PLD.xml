@@ -6,73 +6,31 @@
       <!--Determines if your idlegear will be parsed when you gain/lose a buff. Default: TRUE -->
       <statusupdate>true</statusupdate>
       <!--Determines if your idlegear will be parsed when you change status(stand/rest/engage/etc).  Default: TRUE -->
-      <hpupdate>false</hpupdate>
+      <hpupdate>true</hpupdate>
       <!--Determines if your idlegear will be parsed when your HP % changes.  Default: TRUE -->
       <autoupdate>true</autoupdate>
       <!--Determines if your idlegear will be parsed on outgoing status updates(roughly every 350ms).  Default: TRUE-->
    </settings>
    <sets>
       <!--  Job Ability Sets-->
-      <set name="emnityset">
-         <lring>Apeile Ring +1</lring>
-		    <rring>Apeile Ring</rring>
-         <ammo>Sapience Orb</ammo>
-		    <back>Philidor Mantle</back>
-         <body augment="D15938765744130">Souv. Cuirass +1</body>
-         <head augment="D15938765744130">Souv. Schaller +1</head>
-         <hands augment="D15938765744130">Souv. Handsch. +1</hands>
-         <legs augment="D15938765744130">Souv. Diechlings +1</legs>
-         <feet augment="D15938765744130">Souveran Schuhs +1</feet>
-         <lear>Cryptic Earring</lear>
-         <neck>Moonlight Necklace</neck> 
-      </set>
       <set name="invincibleset" baseset="emnityset"/>
-      <set name="holycircleset" baseset="emnityset"/>
+      <set name="holycircleset" baseset="emnityset">
+         <feet>Rev. Leggings +3</feet>
+      </set>
       <set name="shieldbashset" baseset="emnityset"/>
-      <set name="sentinelset" baseset="emnityset"/>
+      <set name="sentinelset" baseset="emnityset">
+         <legs>Cab. Leggings +3</legs>
+      </set>
       <set name="coverset" baseset="emnityset"/>
-      <set name="rampartset" baseset="emnityset"/>
+      <set name="rampartset" baseset="emnityset">
+         <head>Cab. Coronet +1</head>
+      </set>
       <set name="fealtyset" baseset="emnityset"/>
       <set name="Divine Emblem" baseset="emnityset"/>
       <set name="sepulcherset" baseset="emnityset"/>
       <set name="interveneset" baseset="emnityset"/>
       <!-- DT sets -->
-      <set name="dtset">
 
-         <body>Volte Haubert</body>
-		   <rear>Odnowa Earring +1</rear>
-         <lring>Moonlight Ring</lring>
-         <neck>Loricate Torque +1</neck>
-         <rring>Moonlight Ring</rring>
-         <waist>Flume Belt +1</waist>
-
-
-         <lear>Cryptic Earring</lear>   
-
-         <head>Volte Salade</head>
-         <hands>Volte moufles</hands>
-         <legs>Volte Brayettes</legs>
-         <feet>Volte sollerets</feet>
-
-		 <back augment="S79502400133199612564992">Rudianos's Mantle</back>
-
-      </set>
-      <set name="hdtset">
-            <ammo>Ginsen</ammo>
-
-         <head>Volte Salade</head>
-         <hands>Volte moufles</hands>
-         <legs>Volte Brayettes</legs>
-         <feet>Volte sollerets</feet>
-         <lear>Cryptic Earring</lear>   
-            <neck>Loricate Torque +1</neck>
-            <waist>Sailfi Belt +1</waist>
-            <ear1>Cessance Earring</ear1>
-            <ear2>Telos Earring</ear2>
-            <ring1>Moonlight Ring</ring1>
-            <ring2>Moonlight Ring</ring2>	
-
-	  </set>
       <set name="mdtset" />
       <set name="kiteset" baseset="dtset">
          <legs augment="D6232182625036">Carmine Cuisses +1</legs>
@@ -80,43 +38,16 @@
       <!-- Aegis Sets -->
       <!-- Ochain Sets -->
       <!-- Magic Sets -->
-      <set name="precastset">
-         <head augment="D4071815123724">Carmine Mask +1</head>
-         <back>Moonbeam Cape</back>
-         <neck>Voltsurge torque</neck>
-         <rear>Louac. Earring</rear>
-         <lear>Etiolation Earring</lear>
-         <rring>Kishar Ring</rring>
-         <ammo>Sapience Orb</ammo>
-         <hands>Leyline Gloves</hands>
-         <feet augment="S18164096968739">Odyssean Greaves</feet>
-         <body augment="S18163584669836">Odyss. Chestplate</body>
-         <legs>Eschite Cuisses</legs>
-         <back augment="S0541542540">Rudianos's mantle</back>
-         <back>moonbeam cape</back>
-      </set>
       <set name="healingset">
          <body augment="D15938765744130">Souv. Cuirass +1</body>
          <head augment="D15938765744130">Souv. Schaller +1</head>
 		    <hands>Regal Gauntlets</hands>
          <legs augment="D6232182625036">Carmine Cuisses +1</legs>
-         <feet augment="S18164096968739">Odyssean Greaves</feet>
-         <neck>Moonlight Necklace</neck>
+         <feet>Odyssean Greaves</feet>
+         <neck>Kgt. Beads +2</neck>
          <rear>Magnetic Earring</rear>
 		    <ammo>Staunch Tathlum +1</ammo>
 		    <waist>Rumination Sash</waist> 
-          <back>moonbeam cape</back>
-      </set>
-      <set name="midcastset">
-         <body augment="D15938765744130">Souv. Cuirass +1</body>
-         <head augment="D15938765744130">Souv. Schaller +1</head>
-          <hands>Regal Gauntlets</hands>
-         <legs augment="D6232182625036">Carmine Cuisses +1</legs>
-         <feet augment="S18164096968739">Odyssean Greaves</feet>
-         <neck>Moonlight Necklace</neck>
-         <rear>Magnetic Earring</rear>
-          <ammo>Staunch Tathlum +1</ammo>
-          <waist>Rumination Sash</waist> 
           <back>moonbeam cape</back>
       </set>
       <set name="enhancingset" base="emnityset">
@@ -137,20 +68,6 @@
          <legs>Sulev. Cuisses +2</legs>
          <feet>Sulev. Leggings +2</feet>
          <body>Volte Harness</body>         
-      </set>
-      <set name="savagebladeset">
-         <neck>Fotia Gorget</neck>
-         <waist>Fotia belt</waist>
-         <lring>Epaminondas's Ring</lring>
-         <rring>Regal ring</rring>
-         <lear>Brutal Earring</lear>
-         <rear>Ishvara Earring</rear>
-	     <head augment="S5418183911884918500">Valorous Mask</head>
-         <hands augment="S12534461552032418455">Valorous Mitts</hands>
-         <legs augment="D20925277801407">Argosy Breeches +1</legs>
-         <feet>Sulev. Leggings +2</feet> 
-		 <body augment="D20925277801407">Argosy Hauberk +1</body>
-       <body>Dagon Breast.</body>
       </set>
       <set name="greatswordwsset">
          <neck>Fotia Gorget</neck>
@@ -199,21 +116,168 @@
          <rear>Ishvara Earring</rear>
 
       </set>
-        <set name="impulse">
-            <ammo>Knobkierrie</ammo>
-            <head augment="M1328">Agoge Mask +3</head>
-            <hands augment="S12534461552032418455">Valorous Mitts</hands> <!-- Crit DMG -->
-            <body>Pumm. Lorica +3</body>
-            <legs augment="D20925277801407">Argosy Breeches +1</legs>
-            <feet augment="S9016037759797726647">Valorous Greaves</feet> <!-- STR11, ACC14, ATCK19, WSD4-->  
-            <feet>Sulev. Leggings +2</feet>           
-            <waist>Fotia Belt</waist>
-            <ear1>Brutal Earring</ear1>
-            <ear2>Ishvara Earring</ear2>
-            <ring1>Karieyh Ring</ring1>
-            <ring2>Epaminondas's Ring</ring2>
-            <back augment="S8137071005542418759">Cichol's Mantle</back>
-        </set>
+		<set name="dtset">
+			<ammo>Staunch Tathlum +1</ammo>
+			<head>Sakpata's Helm</head>
+			<body>Sakpata's Plate</body>
+			<hands>Sakpata's Gauntlets</hands>
+			<legs>Sakpata's Cuisses</legs>
+			<feet>Sakpata's Leggings</feet>
+			<neck>Kgt. Beads +2</neck>
+			<waist>Carrier's Sash</waist>
+			<ear1>Eabani Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+         <ring1>Moonlight Ring</ring1>
+			<ring2>Moonlight Ring</ring2>
+		</set>
+		<set name="emnityset">
+			<ammo>Sapience Orb</ammo>
+			<head augment="O2456978194432376">Loess Barbuta +1</head>
+			<body augment="D15938765744130">Souv. Cuirass +1</body>
+			<hands>Yorium Gauntlets</hands>
+			<legs augment="D15938765744130">Souv. Diechlings +1</legs>
+			<feet augment="D4106097282818">Eschite Greaves</feet>
+			<neck>Kgt. Beads +2</neck>
+			<waist>Creed Baudrier</waist>
+			<ear1>Cryptic Earring</ear1>
+			<ear2 augment="O2456978194432367">Odnowa Earring +1</ear2>
+			<ring1>Apeile Ring +1</ring1>
+			<ring2>Defending Ring</ring2>
+			<back augment="S79266176079951560678951">Rudianos's Mantle</back>
+		</set>
+		<set name="precastset">
+			<ammo>Sapience Orb</ammo>
+			<head augment="D4071815123724">Carmine Mask +1</head>
+			<body>Rev. Surcoat +3</body>
+			<legs>Enif Cosciales</legs>
+			<feet augment="D4107314417410">Carmine Greaves +1</feet>
+			<neck>Baetyl Pendant</neck>
+			<waist>Siegel Sash</waist>
+			<ear1>Loquac. Earring</ear1>
+			<ear2 augment="O2456978194432367">Odnowa Earring +1</ear2>
+			<ring2>Kishar Ring</ring2>
+			<back augment="S79502400133199560679052">Rudianos's Mantle</back>
+		</set>
+		<set name="DTset">
+			<ammo>Staunch Tathlum +1</ammo>
+			<head>Sakpata's Helm</head>
+			<body>Sakpata's Plate</body>
+			<hands>Sakpata's Gauntlets</hands>
+			<legs>Sakpata's Cuisses</legs>
+			<feet>Sakpata's Leggings</feet>
+			<neck augment="O3728801005568205">Kgt. Beads +2</neck>
+			<waist>Carrier's Sash</waist>
+			<ear1>Cryptic Earring</ear1>
+			<ear2 augment="O2456978194432367">Odnowa Earring +1</ear2>
+         <ring1>Moonlight Ring</ring1>
+         <ring2 augment="O2456978194432316">Gelatinous Ring +1</ring2>
+			<back augment="S79266176079951560678951">Rudianos's Mantle</back>
+		</set>
+		<set name="midcastreprisal">
+			<ammo>Staunch Tathlum +1</ammo>
+			<head augment="D4071815123724">Carmine Mask +1</head>
+			<body augment="O893814571008419">Sakpata's Plate</body>
+			<hands>Regal Gauntlets</hands>
+			<legs augment="D6232182625036">Carmine Cuisses +1</legs>
+			<feet>Odyssean Greaves</feet>
+         <neck>Kgt. Beads +2</neck>
+			<waist>Audumbla Sash</waist>
+			<ear1>Andoaa Earring</ear1>
+			<ear2 augment="O2456978194432367">Odnowa Earring +1</ear2>
+			<ring1>Moonlight Ring</ring1>
+			<ring2>Moonlight Ring</ring2>
+			<back augment="S79502400133199612714535">Rudianos's Mantle</back>
+		</set>
+		<set name="hdtset">
+			<ammo>Coiste Bodhar</ammo>
+			<head>Sakpata's Helm</head>
+			<body>Sakpata's Plate</body>
+			<hands>Sakpata's Gauntlets</hands>
+			<legs>Sakpata's Cuisses</legs>
+			<feet>Sakpata's Leggings</feet>
+			<neck>Combatant's Torque</neck>
+			<waist>Sailfi Belt +1</waist>
+			<ear1>Dedition Earring</ear1>
+			<ear2>Telos Earring</ear2>
+			<ring1>Moonlight Ring</ring1>w
+			<ring2>Moonlight Ring</ring2>
+			<back augment="S79266176079951560678951">Rudianos's Mantle</back>
+		</set>
+		<set name="midcastset">
+			<ammo>Staunch Tathlum +1</ammo>
+			<head augment="D15938765744130">Souv. Schaller +1</head>
+			<body>Souv. Cuirass +1</body>
+			<hands>Regal Gauntlets</hands>
+			<legs>Founder's Hose</legs>
+			<feet>Odyssean Greaves</feet>
+         <neck>Kgt. Beads +2</neck>
+			<waist>Audumbla Sash</waist>
+			<ear1>Eabani Earring</ear1>
+			<ear2 augment="O2456978194432367">Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2 augment="O2456978194432316">Gelatinous Ring +1</ring2>
+			<back augment="S79502400133199612714535">Rudianos's Mantle</back>
+		</set>
+		<set name="midcastphalanx">
+			<ammo>Staunch Tathlum +1</ammo>
+			<head augment="D15938765744130">Souv. Schaller +1</head>
+			<body augment="O893814571008419">Sakpata's Plate</body>
+			<hands augment="D4106239164418">Souv. Handsch. +1</hands>
+			<legs>Sakpata's Cuisses</legs>
+			<feet augment="D15938765744130">Souveran Schuhs +1</feet>
+			<neck>Incanter's Torque</neck>
+			<waist>Audumbla Sash</waist>
+			<ear1>Andoaa Earring</ear1>
+			<ear2 augment="O2456978194432367">Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2 augment="O2456978194432316">Gelatinous Ring +1</ring2>
+			<back>Weard Mantle</back>
+		</set>
+		<set name="savagebladeset">
+			<ammo augment="O1460453769216459">Coiste Bodhar</ammo>
+         <head>Nyame Helm</head>
+         <body>Nyame Mail</body>
+         <hands>Nyame Gauntlets</hands>
+         <legs>Nyame Flanchard</legs>
+         <feet>Nyame Sollerets</feet>
+			<neck>Fotia Gorget</neck>
+			<waist augment="O2456978194432292">Sailfi Belt +1</waist>
+			<ear1 augment="S560011287">Moonshade Earring</ear1>
+			<ear2>Thrud Earring</ear2>
+			<ring1>Epaminondas's Ring</ring1>
+			<ring2>Karieyh Ring</ring2>
+			<back augment="S81366415088128541542727">Rudianos's Mantle</back>
+		</set>
+      <set name="Atonement">
+         <ammo augment="O1460453769216459">Coiste Bodhar</ammo>
+         <head>Nyame Helm</head>
+         <body>Nyame Mail</body>
+         <hands>Nyame Gauntlets</hands>
+         <legs>Nyame Flanchard</legs>
+         <feet>Nyame Sollerets</feet>
+         <neck>Fotia Gorget</neck>
+         <waist augment="O2456978194432292">Sailfi Belt +1</waist>
+         <ear1 augment="S560011287">Moonshade Earring</ear1>
+         <ear2>Thrud Earring</ear2>
+         <ring1>Epaminondas's Ring</ring1>
+         <ring2>Karieyh Ring</ring2>
+         <back augment="S81366415088128541542727">Rudianos's Mantle</back>
+      </set>
+		<set name="Aeolian">
+			<ammo augment="O2456978194432343">Ghastly Tathlum +1</ammo>
+			<head>Nyame Helm</head>
+			<body>Nyame Mail</body>
+			<hands>Nyame Gauntlets</hands>
+			<legs >Nyame Flanchard</legs>
+			<feet >Nyame Sollerets</feet>
+			<neck>Baetyl Pendant</neck>
+			<waist>Orpheus's Sash</waist>
+			<ear1 augment="S560011287">Moonshade Earring</ear1>
+			<ear2>Friomisi Earring</ear2>
+			<ring1>Epaminondas's Ring</ring1>
+			<ring2>Metamorph Ring +1</ring2>
+			<back augment="S81366415088128541542727">Rudianos's Mantle</back>
+		</set>
    </sets>
    <variables>
       <var name="init">0</var>
@@ -288,7 +352,7 @@
          <equip set="holycircleset" />
       </elseif>
       <elseif ad_name="Shield Bash">
-         <equip set="shieldbashset" />
+         <equip><hands>Cab. Gauntlets +3</hands></equip>
       </elseif>
       <elseif ad_name="Sentinel">
          <equip set="sentinelset" />
@@ -296,12 +360,12 @@
       <elseif ad_name="Cover">
          <equip set="coverset" />
       </elseif>
-      <elseif ad_name="Rampart">
-         <equip set="rampartset" />
-      </elseif>
-      <elseif ad_name="Fealty">
-         <equip set="fealtyset" />
-      </elseif>
+      
+      <elseif ad_name="Rampart"><equip><head>Cab. Coronet +1</head></equip></elseif>
+      
+
+      <elseif ad_name="Fealty"><equip><body>Cab. Surcoat</body></equip></elseif>
+
       <elseif ad_name="Chivalry">
          <equip set="Divine Emblem" />
       </elseif>
@@ -330,9 +394,13 @@
          <addtochat color="8">Healing Set</addtochat>
          <equip set="midcastset" />
       </if>
-      <elseif ad_skill="enhancingmagic">
-         <addtochat color="8">Enhancing Set</addtochat>
-         <equip set="midcastset" />
+      <elseif ad_name="Reprisal">
+         <addtochat color="8">Reprisal Set</addtochat>
+         <equip set="midcastreprisal" />
+      </elseif>
+      <elseif ad_name="Phalanx">
+         <addtochat color="8">Phalanx Set</addtochat>
+         <equip set="midcastphalanx" />
       </elseif>
       <elseif ad_skill="divinemagic">
          <if ad_name="Flash">
@@ -342,61 +410,57 @@
          <else>
             <addtochat color="8">Divine Set</addtochat>
          </else>
-         <equip set="divineset" />
+         <equip set="midcastset" />
       </elseif>
+      <else>
+         <equip set="midcastset" />
+      </else>
+      <if ad_name="Utsusemi: Ichi">
+         <if buffactive="66|444|445">
+            <addtochat color="8">Shadows found, Canceling</addtochat>
+            <command delay="500">/cancel 66</command>
+         </if>
+      </if>
    </midmagic>
    <idlegear>
 
      <if advanced="$init=0">
          <setvar name="init" value="1" />
          <addtochat color="8">Starting up PLD</addtochat>
-         <command delay="1000">/macro book 2</command>
+         <command delay="1000">/macro book 5</command>
          <command delay="1500">/macro set 1</command>
-         <command delay="2000">/lockstyleset 100</command>
+         <command delay="2000">/lockstyleset 197</command>
          <command delay="2500">/addon load equipviewer</command>
       </if>
 
 
       <if p_status="engaged">
-         <if advanced="$DT=On">
-            <equip set="dtset" />
-         </if>
          <if advanced="$hdt=On">
             <equip set="hdtset" />
-         </if>
-         <elseif>
-            <if advanced="$kite=On">
-               <equip set="kiteset" />
-            </if>
-            <elseif>
-               <equip set="dtset" />
-            </elseif>
          </elseif>
+         <elseif advanced="$kite=On">
+               <equip set="kiteset" />
+         </elseif>
+         <else>
+            <equip set="Dtset"/>
+         </else>
       </if>
-      <else>
-         <equip set="kiteset" />
-      </else>
+      
       <if p_status="idle">
          <if advanced="$DT=On">
             <equip set="dtset" />
          </if>
-         <if advanced="$hdt=On">
+         <elseif advanced="$hdt=On">
             <equip set="hdtset" />
-         </if>
-         <elseif>
-            <if advanced="$kite=On">
-               <equip set="kiteset" />
-            </if>
          </elseif>
+         <else advanced="$kite=On">
+               <equip set="kiteset" />
+         </else>
       </if>
+
       <if eq_rring="Dim. Ring (Dem)">
          <equip lock="true">
             <rring>Dim. Ring (Dem)</rring>
-         </equip>
-      </if>
-      <if eq_lring="Dim. Ring (Dem)">
-         <equip lock="true">
-            <lring>Dim. Ring (Dem)</lring>
          </equip>
       </if>
       <if eq_lring="Warp Ring">
@@ -404,39 +468,16 @@
             <lring>Warp Ring</lring>
          </equip>
       </if>
-      <if eq_back="Mecisto. Mantle">
-         <equip lock="true">
-            <back>Mecisto. Mantle</back>
-         </equip>
-      </if>
+      
    </idlegear>
+   
+
    <weaponskill>
-      <if eq_main="Ragnarok|Caladbolg">
-         <if ad_name="Resolution">
-            <equip set="resolutionset" />
-         </if>
-         <elseif ad_name="Torcleaver">
-            <equip set="torcleaverset" />
-         </elseif>
-         <elseif>
-            <equip set="greatswordwsset" />
-         </elseif>
-      </if>
-      <else>
-         <if ad_name="Savage Blade">
-            <equip set="savagebladeset" />
-         </if>
-         <else>
-            <equip set="swordwsset" />
-         </else>
-      </else>
+      <if ad_name="Savage Blade"><equip set="savagebladeset" /></if>
       <if ad_name="impulse drive"><equip set="impulse"/></if>
-	  <if e_time=">17.01|<6.59">
-			<equip>
-				<lear>Lugra Earring +1</lear>
-				<rear>Lugra Earring</rear>
-			</equip>
-		</if>
-      <if ad_name="Chant du Cygne"><equip set="cdc"/></if>
+	   <if ad_name="Chant du Cygne"><equip set="cdc"/></if>
+      <if ad_name="Atonement"><equip set="Atonement"/></if>
+      <if ad_name="Aeolian*"><equip set="Aeolian"/></if>
+
    </weaponskill>
 </ashitacast>
