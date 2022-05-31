@@ -9,48 +9,17 @@
 <sets>
 
         <!--- DT sets -->
-        <set name="DT">
-            <main augment="O372879451750444">Rostam</main>
-            <main augment="O372879458304045">Rostam</main> <!-- Rolls Rostam -->
-       
-            <head>Meghanada Visor +2</head>
-            <neck>Loricate Torque +1</neck>
-            <hands>Meg. Gloves +2</hands>
-            <body>Meg. Cuirie +2</body>
-            <legs>Meg. Chausses +2</legs>
-            <feet>Meg. Jam. +2</feet>
-            <rear>Odnowa Earring +2</rear>
-            <lear>Etiolation Earring</lear>
-        </set>
         <set name="mdt">
         </set>
         <set name="hdt">
         </set>
-        <set name="TP">
-            <head>Adhemar Bonnet +1</head>
-            <neck>Iskur Gorget</neck>
-            <lear>Telos Earring</lear>
-            <rear>Cessance Earring</rear>
-            <body>Adhemar Jacket +1</body>
-            <hands>Adhemar Wrist. +1</hands>
-            <lring>Petrov Ring</lring>
-            <rring>Ilabrat Ring</rring>
-            <waist>Windbuffet Belt +1</waist>
-            <legs>Meg. Chausses +2</legs>
-            <feet>Meg. Jam. +2</feet>
-            <back augment="S7926617608038518574">Camulus's mantle</back> <!-- ACC STP -->
-        </set>
-        <set name="TPKnife">
-            <main augment="O372879451750444">Rostam</main>
-            <range>Death Penalty</range>
-            <back augment="S8137930005555518574">Camulus's mantle</back> <!-- RNG STP -->
-        </set>
         <set name="TPSword">
             <main>Naegling</main>
-            <sub>Tauret</sub>
+
             <range augment="M39265">Anarchy +2</range>
         </set>
-        <set name="TPRanged">
+        <set name="TPedge">
+            <range augment="M39265">Anarchy +2</range>
         </set>
 
         <set name="Precast">
@@ -58,52 +27,10 @@
             <rear>Etiolation Earring</rear>
             <body augment="S602109454371">Samnuha Coat</body>
         </set>
-
-        <set name="QD">
-            <head>Herculean Helm</head>
-            <neck>Sanctity Necklace</neck>
-            <lear>Novio Earring</lear>
-            <rear>Hecate's Earring</rear>
-            <body>Samnuha Coat</body>
-            <hands>Leyline Gloves</hands>
-            <lring>Apate Ring</lring>
-            <rring>Fenrir Ring +1</rring>
-            <back>Gunslinger's Cape</back>
-            <waist>Aquiline Belt</waist>
-            <legs>Herculean Trousers</legs>
-            <feet>Herculean Boots</feet>
-        </set>
         <set name="QD-LD" BaseSet="QD">     
-            <lear>Lifestorm Earring</lear>
-            <rear>Psystorm Earring</rear>
         </set>
 
-        <set name="Preshot">
-            <ammo>Chrono Bullet</ammo>
-
-            <head>Chass. Tricorne +1</head>
-            <neck>Comm. Charm +1</neck>
-            <body>Laksa. Frac +3</body>
-            <hands>Carmine Fin. Ga. +1</hands>
-            <legs>Laksa. Trews +3</legs>
-            <feet>Meg. Jam. +2</feet>
-        </set>
-        <set name="Midshot">
-            <ammo>Chrono Bullet</ammo>
-            <head>Meghanada Visor +2</head>
-            <head>Oshosi Mask</head>
-            <neck>Iskur Gorget</neck>
-            <lear>Telos Earring</lear>
-            <rear>Enervating Earring</rear>
-            <body>Mummu Jacket +2</body>
-            <hands>Meg. Gloves +2</hands>
-            <lring>Dingir Ring</lring>
-            <rring>Ilabrat Ring</rring>
-            <waist>Yemaya Belt</waist>
-            <legs>Lanun trews +2</legs>
-            <feet>Meg. Jam. +2</feet>
-        </set>
-		
+	
         <set name="WS">
             <ammo>Living Bullet</ammo>
             <head>Lanun Tricorne +2</head>
@@ -119,39 +46,9 @@
             <feet>Lanun Bottes +3</feet>
             <back augment="S8137930005555518759">Camulus's mantle</back> <!-- RNG AGI WSD -->w			
         </set>
-        <set name="Leaden">
-            <ammo>Living Bullet</ammo>
-            <head>Pixie Hairpin +1</head>
-            <neck>Comm. Charm +1</neck>
-            <lear>Friomisi Earring</lear>
-            <rear>Ishvara Earring</rear>
-            <body>Laksa. Frac +3</body>
-            <hands>Carmine Fin. Ga. +1</hands>
-            <lring>Dingir Ring</lring>
-            <rring>Archon Ring</rring>
-            <legs augment="S3547845184722338982">Herculean Trousers</legs>
-            <waist>Eschan Stone</waist>
-            <feet>Lanun Bottes +3</feet>
-            <back augment="S8137930077645118759">Camulus's mantle</back> <!-- MACC/MAB AGI WSD -->
-        </set>
-        <set name="Wildfire">
-                        <ammo>Living Bullet</ammo>
-            <head augment="S106125454446662">Herculean Helm</head>
-            <neck>Comm. Charm +1</neck>
-            <lear>Friomisi Earring</lear>
-            <rear>Ishvara Earring</rear>
-            <body>Laksa. Frac +3</body>
-            <hands>Carmine Fin. Ga. +1</hands>
-            <lring>Dingir Ring</lring>
-            <rring>Regal Ring</rring>
-            <legs augment="S10584894085543836934">Herculean Trousers</legs>
-            <waist>Eschan Stone</waist>
-            <feet>Lanun Bottes +3</feet>
-            <back augment="S8137930077645118759">Camulus's mantle</back> <!-- MACC/MAB AGI WSD -->
-        </set>
         <set name="LastStand">
-            <ammo>Living Bullet</ammo>
-            <head>Lanun Tricorne +2</head>
+            <ammo>Chrono Bullet</ammo>
+            <head>Nyame Helm</head>
             <neck>Fotia Gorget</neck>
             <lear>Telos Earring</lear>
             <rear>Ishvara Earring</rear>
@@ -159,28 +56,139 @@
             <hands>Meg. Gloves +2</hands>
             <lring>Dingir Ring</lring>
             <rring>Regal Ring</rring>
-            <legs>Meg. Chausses +2</legs>
+            <legs>Nyame Flanchard</legs>
             <waist>Fotia Belt</waist>
             <feet>Lanun Bottes +3</feet>
             <back augment="S8137930005555518759">Camulus's mantle</back> <!-- RNG AGI WSD -->
         </set>
 
-        <set name="SavageBlade">
-            <head>Meghanada Visor +2</head>
-            <neck>Comm. CHarm +1</neck>
-            <lear>Ishvara Earring</lear>
-            <rear>Brutal Earring</rear>
-            <body>Laksa. Frac +3</body>
-            <hands>Meg. Gloves +2</hands>
-            <waist>Fotia Belt</waist>d
-            <lring>Epona's Ring</lring>
-            <rring>Regal Ring</rring>
-            <legs>Meg. Chausses +2</legs>
-            <legs augment="S7177336637245926692">Herculean Trousers</legs>
-            <feet>Lanun Bottes +3</feet>
-            <back augment="S3738594997708818759">Camulus's mantle</back> <!-- STR WSD -->
-        </set>
 
+		<set name="DT">
+            <head>Malignance Chapeau</head>
+            <body>Malignance Tabard</body>
+            <hands>Malignance Gloves</hands>
+            <legs>Malignance Tights</legs>
+            <feet>Malignance Boots</feet>
+			<neck>Loricate Torque +1</neck>
+			<waist>Sailfi Belt +1</waist>
+			<ear1>Etiolation Earring</ear1>
+			<ear2>Odnowa Earring +1</ear2>
+			<ring1>Defending Ring</ring1>
+			<ring2>Warden's Ring</ring2>
+			<back augment="S79266176080385612583566">Camulus's Mantle</back>
+		</set>
+		<set name="TPKnife">
+			<main augment="O372879713894444">Rostam</main>
+            <range>Anarchy +2</range>
+            <range>Armageddon</range>
+                <range>Death Penalty</range>
+
+			<back augment="S81370710055425612649103">Camulus's Mantle</back>
+		</set>
+		<set name="SavageBlade">
+			<head>Nyame Helm</head>
+			<body>Nyame Mail</body>
+			<hands>Nyame Gauntlets</hands>
+			<legs>Nyame Flanchard</legs>
+			<feet>Nyame Sollerets</feet>
+			<neck augment="O3728794451968215">Comm. Charm +2</neck>
+			<waist augment="O2456978194432292">Sailfi Belt +1</waist>
+			<ear1 augment="S560011287">Moonshade Earring</ear1>
+			<ear2>Ishvara Earring</ear2>
+			<ring1>Karieyh Ring</ring1>
+			<ring2>Epaminondas's Ring</ring2>
+			<back augment="S81366415088128541542727">Camulus's Mantle</back>
+		</set>
+		<set name="leaden">
+			<ammo>Living Bullet</ammo>
+			<head>Pixie Hairpin +1</head>
+			<body>Lanun Frac +3</body>
+                        <body>Nyame Mail</body>
+			<hands>Nyame Gauntlets</hands>
+
+			<legs>Nyame Flanchard</legs>
+			<feet augment="M1296">Lanun Bottes +3</feet>
+			<neck augment="O3728794451968215">Comm. Charm +2</neck>
+			<waist>Orpheus's Sash</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2 augment="S560011287">Moonshade Earring</ear2>
+			<ring1>Dingir Ring</ring1>
+			<ring2>Archon Ring</ring2>
+			<back augment="S81379300776451541542727">Camulus's Mantle</back>
+		</set>
+		<set name="tp">
+			<head augment="D20942457801664">Adhemar Bonnet +1</head>
+			<body augment="D20925277801407">Adhemar Jacket +1</body>
+			<hands augment="D20925277801407">Adhemar Wrist. +1</hands>
+			<legs>Malignance Tights</legs>
+			<feet augment="S63776381503511">Herculean Boots</feet>
+			<neck>Combatant's Torque</neck>
+			<waist>Reiki Yotai</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Crep. Earring</ear2>
+			<ring1>Chirich Ring +1</ring1>
+			<ring2>Ilabrat Ring</ring2>
+			<back augment="S81370710055425612649103">Camulus's Mantle</back>
+		</set>
+		<set name="midshot">
+			<ammo>Chrono Bullet</ammo>
+			<head>Malignance Chapeau</head>
+			<body>Malignance Tabard</body>
+			<hands>Malignance Gloves</hands>
+			<legs>Malignance Tights</legs>
+			<feet>Malignance Boots</feet>
+			<neck>Iskur Gorget</neck>
+			<waist>Reiki Yotai</waist>
+			<ear1>Telos Earring</ear1>
+			<ear2>Crep. Earring</ear2>
+			<ring1>Dingir Ring</ring1>
+			<ring2>Crepuscular Ring</ring2>
+			<back augment="S81379300055555612583465">Camulus's Mantle</back>
+		</set>
+		<set name="preshot">
+			<ammo>Chrono Bullet</ammo>
+            <head>Chass. Tricorne +1</head>
+            <neck>Comm. Charm +2</neck>
+            <body>Laksa. Frac +3</body>
+            <hands>Carmine Fin. Ga. +1</hands>
+            <ring2>Crepuscular Ring</ring2>
+            <waist>Impulse Belt</waist>
+            <legs>Laksa. Trews +3</legs>
+            <feet>Meg. Jam. +2</feet>
+			<back augment="S2555484676541542611">Camulus's Mantle</back>
+		</set>
+		<set name="QD">
+			<ammo>Living Bullet</ammo>
+            <head>Nyame Helm</head>
+            <body>Nyame Mail</body>
+            <hands>Nyame Gauntlets</hands>
+            <legs>Nyame Flanchard</legs>
+            <feet>Nyame Sollerets</feet>
+			<neck augment="O3728794451968215">Comm. Charm +2</neck>
+			<waist>Orpheus's Sash</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2>Gwati Earring</ear2>
+			<ring1>Crepuscular Ring</ring1>
+			<ring2>Dingir Ring</ring2>
+			<back augment="S81379300776451541542727">Camulus's Mantle</back>
+		</set>
+		<set name="wildfire">
+                    <ammo>Chrono Bullet</ammo>
+
+			<ammo>Living Bullet</ammo>
+			<head>Nyame Helm</head>
+			<body augment="M1425">Lanun Frac +3</body>
+			<hands>Nyame Gauntlets</hands>
+			<legs>Nyame Flanchard</legs>
+			<feet augment="M1296">Lanun Bottes +3</feet>
+			<neck augment="O3728794451968215">Comm. Charm +2</neck>
+			<waist>Hachirin-no-Obi</waist>
+			<ear1>Friomisi Earring</ear1>
+			<ear2>Gwati Earring</ear2>
+			<ring1>Dingir Ring</ring1>
+			<ring2>Epaminondas's Ring</ring2>
+			<back augment="S81366415088128541542727">Camulus's Mantle</back>
+		</set>
 </sets>
    
 <variables>
@@ -305,9 +313,9 @@
         <if advanced="$init=0">
             <setvar name="init" value="1" />
             <addtochat color="8">Starting up COR</addtochat>
-            <command delay="1000">/lockstyleset 100</command>    
-            <command delay="1500">/macro book 2</command>
-            <command delay="2000">/macro set 1</command>                 
+            <command delay="1000">/lockstyleset 200</command>    
+            <command delay="1500">/macro book 4</command>
+            <command delay="2000">/macro set 2</command>                 
         </if>
        
         <if p_status="engaged">
@@ -358,19 +366,25 @@
    
 <weaponskill>
        
-        <if ad_name="Leaden Salute">
+        <if ad_name="Leaden *">
             <equip set="Leaden"/>
+            <if e_day="firesday">
+                <equip><waist>Hachirin-no-obi</waist></equip>
+            </if>
+            <elseif e_weather="fire">
+                <equip><waist>Hachirin-no-obi</waist></equip>
+            </elseif>
+            <elseif t_distance="<15">
+                <equip><waist>Orpheus's Sash</waist></equip>
+            </elseif>
+
         </if>
-        <elseif ad_name="Wildfire"><equip set="Wildfire"/></elseif>
+        <elseif ad_name="Wildfire|Aeol*"><equip set="Wildfire"/>
+            <if t_distance="<15"><equip><waist>Orpheus's Sash</waist></equip></if>
+        </elseif>
 
         <if ad_name="Last Stand"><equip set="LastStand"/></if>
         <elseif ad_name="Savage Blade"><equip set="SavageBlade"/></elseif>
 
-        <if t_distance="<15"><equip><waist>Orpheus's Sash</waist></equip></if>
-
-
 </weaponskill>
-   
-   
-   
-    </ashitacast>
+</ashitacast>
